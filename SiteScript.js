@@ -1,9 +1,9 @@
-var blocks_high = ['0049800030', 'Theo Ratliff', 5, 1, 6, 0, 4, 'Magic', 'H', '1999', 'https://www.basketball-reference.com/boxscores/199905150PHI.html'];
-var steals_high = ['0048200036', 'Julius Erving', 19, 2, 5, 3, 3, 'Bucks', 'A', '1983', 'https://www.basketball-reference.com/boxscores/198305150MIL.html'];
-var rebounds_high = ['0047600305', 'George McGinnis', 11, 4, 14, 0, 0, 'Rockets', 'H', '1977', 'https://www.basketball-reference.com/boxscores/197705150PHI.html'];
-var assists_high = ['0048100035', 'Maurice Cheeks', 18, 10, 4, 0, 0, 'Celtics', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205150PHI.html'];
-var points_high = ['0047600305', 'Julius Erving', 37, 6, 6, 0, 0, 'Rockets', 'H', '1977', 'https://www.basketball-reference.com/boxscores/197705150PHI.html'];
-var date = 'May 15th';
+var blocks_high = ['0048100036', 'Caldwell Jones', 10, 2, 11, 0, 4, 'Celtics', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205160PHI.html', ['0048100036', 'Darryl Dawkins', 16, 2, 6, 0, 4, 'Celtics', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205160PHI.html']];
+var steals_high = ['0040000066', 'Allen Iverson', 52, 7, 2, 4, 0, 'Raptors', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200105160PHI.html'];
+var rebounds_high = ['0040200206', 'Kenny Thomas', 12, 0, 14, 1, 0, 'Pistons', 'H', '2003', 'https://www.basketball-reference.com/boxscores/200305160PHI.html'];
+var assists_high = ['0048900052', 'Johnny Dawkins', 18, 15, 1, 1, 0, 'Bulls', 'A', '1990', 'https://www.basketball-reference.com/boxscores/199005160CHI.html'];
+var points_high = ['0040000066', 'Allen Iverson', 52, 7, 2, 4, 0, 'Raptors', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200105160PHI.html'];
+var date = 'May 16th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
