@@ -1,9 +1,9 @@
-var blocks_high = ['0048100036', 'Caldwell Jones', 10, 2, 11, 0, 4, 'Celtics', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205160PHI.html', ['0048100036', 'Darryl Dawkins', 16, 2, 6, 0, 4, 'Celtics', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205160PHI.html']];
-var steals_high = ['0040000066', 'Allen Iverson', 52, 7, 2, 4, 0, 'Raptors', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200105160PHI.html'];
-var rebounds_high = ['0040200206', 'Kenny Thomas', 12, 0, 14, 1, 0, 'Pistons', 'H', '2003', 'https://www.basketball-reference.com/boxscores/200305160PHI.html'];
-var assists_high = ['0048900052', 'Johnny Dawkins', 18, 15, 1, 1, 0, 'Bulls', 'A', '1990', 'https://www.basketball-reference.com/boxscores/199005160CHI.html'];
-var points_high = ['0040000066', 'Allen Iverson', 52, 7, 2, 4, 0, 'Raptors', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200105160PHI.html'];
-var date = 'May 16th';
+var blocks_high = ['0049800041', 'Theo Ratliff', 6, 0, 2, 1, 2, 'Pacers', 'A', '1999', 'https://www.basketball-reference.com/boxscores/199905170IND.html'];
+var steals_high = ['0049800041', 'George Lynch', 6, 1, 2, 2, 0, 'Pacers', 'A', '1999', 'https://www.basketball-reference.com/boxscores/199905170IND.html', ['0049800041', 'Allen Iverson', 35, 1, 9, 2, 0, 'Pacers', 'A', '1999', 'https://www.basketball-reference.com/boxscores/199905170IND.html']];
+var rebounds_high = ['0049800041', 'Matt Geiger', 16, 2, 11, 1, 0, 'Pacers', 'A', '1999', 'https://www.basketball-reference.com/boxscores/199905170IND.html'];
+var assists_high = ['0049800041', 'Eric Snow', 10, 10, 5, 0, 0, 'Pacers', 'A', '1999', 'https://www.basketball-reference.com/boxscores/199905170IND.html'];
+var points_high = ['0049800041', 'Allen Iverson', 35, 1, 9, 2, 0, 'Pacers', 'A', '1999', 'https://www.basketball-reference.com/boxscores/199905170IND.html'];
+var date = 'May 17th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";

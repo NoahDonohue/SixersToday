@@ -7,7 +7,7 @@ Created on Wed May  6 18:48:07 2020
 
 import time
 import ast
-import json
+
 
 from nba_api.stats.endpoints import scoreboardv2
 from nba_api.stats.endpoints import boxscoretraditionalv2
@@ -116,11 +116,11 @@ def find_todays_sixers_games():
 
 def get_todays_high_player_stats(sixers_scores):
 
-    points_high = [0, "Guy Fakename", 0, 0, 0, 0, 0, "Fake Team", "H", "0000"]
-    assists_high = [0, "Guy Fakename", 0, 0, 0, 0, 0, "Fake Team", "H", "0000"]
-    rebounds_high = [0, "Guy Fakename", 0, 0, 0, 0, 0, "Fake Team", "H", "0000"]
-    steals_high = [0, "Guy Fakename", 0, 0, 0, 0, 0, "Fake Team", "H", "0000"]
-    blocks_high = [0, "Guy Fakename", 0, 0, 0, 0, 0, "Fake Team", "H", "0000"]
+    points_high = [0, "Guy Fakename", 0, 0, 0, 0, 0, "Fake Team", "H", "0000", "https://www.basketball-reference.com"]
+    assists_high = [0, "Guy Fakename", 0, 0, 0, 0, 0, "Fake Team", "H", "0000", "https://www.basketball-reference.com"]
+    rebounds_high = [0, "Guy Fakename", 0, 0, 0, 0, 0, "Fake Team", "H", "0000", "https://www.basketball-reference.com"]
+    steals_high = [0, "Guy Fakename", 0, 0, 0, 0, 0, "Fake Team", "H", "0000", "https://www.basketball-reference.com"]
+    blocks_high = [0, "Guy Fakename", 0, 0, 0, 0, 0, "Fake Team", "H", "0000", "https://www.basketball-reference.com"]
     #f = open("TodaysSixersBoxScores.txt", "r")
     
     for game_list in sixers_scores:
@@ -128,9 +128,11 @@ def get_todays_high_player_stats(sixers_scores):
         box_score = game_list[0]
     
         for player in box_score['data']:
+            #if they're not a sixers player, continue
             if player[1] != sixers_id:
                 continue
             else:
+                #build a list of all important data about the player
                 #game_id, player name, points, assists, rebounds, steals, blocks, opponent, home/away, year
                 player_info = [player[0], player[5], player[26],player[21],player[20],player[22],player[23], teams.find_team_name_by_id(game_list[1])['nickname'], game_list[2], game_list[3]]
                 #append basketball reference URL
@@ -138,34 +140,50 @@ def get_todays_high_player_stats(sixers_scores):
                     player_info.append("https://www.basketball-reference.com/boxscores/" + player_info[9] + "0" + str(month) + str(day) + "0" + "PHI.html")
                 else:
                     player_info.append("https://www.basketball-reference.com/boxscores/" + player_info[9] + "0" + str(month) + str(day) + "0" + (teams.find_teams_by_nickname(player_info[7])[0]["abbreviation"]) +".html")
-    
+                    
+                #check if player has highest points. If None type replace with 0
                 if player_info[2] != None:
                     if player_info[2] > points_high[2]: 
                         points_high = player_info
+                    #check for ties
+                    elif player_info[2] == points_high[2]:
+                        points_high.append(player_info)
                 else:
                     player_info[2] = 0;
             
+                #check for highest assists
                 if player_info[3] != None:
                     if player_info[3] > assists_high[3]: 
                         assists_high = player_info
+                    elif player_info[3] == assists_high[3]: 
+                        assists_high.append(player_info)
                 else:
                     player_info[3] = 0;
      
+                #check for highest rebounds
                 if player_info[4] != None:
                     if player_info[4] > rebounds_high[4]:
                         rebounds_high = player_info
+                    elif player_info[4] == rebounds_high[4]: 
+                        rebounds_high.append(player_info)
                 else:
                     player_info[4] = 0;
         
+                #check for highest steals
                 if player_info[5] != None:
                     if player_info[5] > steals_high[5]:
                         steals_high = player_info
+                    elif player_info[5] == steals_high[5]:
+                        steals_high.append(player_info)
                 else:
                     player_info[5] = 0;
             
+                #check for highest blocks
                 if player_info[6] != None:
                     if player_info[6] > blocks_high[6]:
                         blocks_high = player_info
+                    elif player_info[6] == blocks_high[6]:
+                        blocks_high.append(player_info)
                 else:
                     player_info[6] = 0;
     #  f.close()
@@ -200,8 +218,8 @@ def find_todays_sixers_boxscores():
 
     
     
-#get_games_on_this_date()
-#find_todays_sixers_games()
+get_games_on_this_date()
+find_todays_sixers_games()
 find_todays_sixers_boxscores()
     
 
