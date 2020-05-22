@@ -1,9 +1,9 @@
-var blocks_high = ['0048100038', 'Caldwell Jones', 10, 1, 17, 0, 3, 'Celtics', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205210PHI.html', ['0048100038', 'Julius Erving', 24, 4, 11, 3, 3, 'Celtics', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205210PHI.html', ['0049800049', 'Larry Hughes', 11, 2, 4, 3, 0, 'Pacers', 'H', '1999', 'https://www.basketball-reference.com/boxscores/199905210PHI.html'], ['0049800049', 'Theo Ratliff', 10, 1, 8, 3, 2, 'Pacers', 'H', '1999', 'https://www.basketball-reference.com/boxscores/199905210PHI.html']]];
-var steals_high = ['0049800049', 'George Lynch', 4, 0, 10, 4, 0, 'Pacers', 'H', '1999', 'https://www.basketball-reference.com/boxscores/199905210PHI.html'];
-var rebounds_high = ['0048100038', 'Caldwell Jones', 10, 1, 17, 0, 3, 'Celtics', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205210PHI.html', ['0048100038', 'Julius Erving', 24, 4, 11, 3, 3, 'Celtics', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205210PHI.html', ['0049800049', 'Larry Hughes', 11, 2, 4, 3, 0, 'Pacers', 'H', '1999', 'https://www.basketball-reference.com/boxscores/199905210PHI.html'], ['0049800049', 'Theo Ratliff', 10, 1, 8, 3, 2, 'Pacers', 'H', '1999', 'https://www.basketball-reference.com/boxscores/199905210PHI.html']]];
-var assists_high = ['0049800049', 'Eric Snow', 16, 9, 2, 1, 0, 'Pacers', 'H', '1999', 'https://www.basketball-reference.com/boxscores/199905210PHI.html'];
-var points_high = ['0049800049', 'Allen Iverson', 32, 6, 2, 2, 0, 'Pacers', 'H', '1999', 'https://www.basketball-reference.com/boxscores/199905210PHI.html'];
-var date = 'May 21st';
+var blocks_high = ['0048200040', 'Julius Erving', 20, 9, 10, 1, 5, 'Lakers', 'H', '1983', 'https://www.basketball-reference.com/boxscores/198305220PHI.html'];
+var steals_high = ['0047600401', 'Steve Mix', 9, 3, 5, 6, 0, 'Trail Blazers', 'H', '1977', 'https://www.basketball-reference.com/boxscores/197705220PHI.html'];
+var rebounds_high = ['0048200040', 'Moses Malone', 27, 0, 18, 2, 3, 'Lakers', 'H', '1983', 'https://www.basketball-reference.com/boxscores/198305220PHI.html', ['0040000076', 'Dikembe Mutombo', 15, 1, 18, 1, 4, 'Bucks', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200105220PHI.html']];
+var assists_high = ['0048200040', 'Julius Erving', 20, 9, 10, 1, 5, 'Lakers', 'H', '1983', 'https://www.basketball-reference.com/boxscores/198305220PHI.html'];
+var points_high = ['0040000076', 'Allen Iverson', 34, 6, 4, 1, 0, 'Bucks', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200105220PHI.html'];
+var date = 'May 22nd';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
