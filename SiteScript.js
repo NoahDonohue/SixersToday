@@ -1,9 +1,9 @@
-var blocks_high = ['0048200040', 'Julius Erving', 20, 9, 10, 1, 5, 'Lakers', 'H', '1983', 'https://www.basketball-reference.com/boxscores/198305220PHI.html'];
-var steals_high = ['0047600401', 'Steve Mix', 9, 3, 5, 6, 0, 'Trail Blazers', 'H', '1977', 'https://www.basketball-reference.com/boxscores/197705220PHI.html'];
-var rebounds_high = ['0048200040', 'Moses Malone', 27, 0, 18, 2, 3, 'Lakers', 'H', '1983', 'https://www.basketball-reference.com/boxscores/198305220PHI.html', ['0040000076', 'Dikembe Mutombo', 15, 1, 18, 1, 4, 'Bucks', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200105220PHI.html']];
-var assists_high = ['0048200040', 'Julius Erving', 20, 9, 10, 1, 5, 'Lakers', 'H', '1983', 'https://www.basketball-reference.com/boxscores/198305220PHI.html'];
-var points_high = ['0040000076', 'Allen Iverson', 34, 6, 4, 1, 0, 'Bucks', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200105220PHI.html'];
-var date = 'May 22nd';
+var blocks_high = ['0048100039', 'Julius Erving', 29, 5, 4, 3, 3, 'Celtics', 'A', '1982', 'https://www.basketball-reference.com/boxscores/198205230BOS.html', ['0049800052', 'Larry Hughes', 3, 0, 4, 0, 3, 'Pacers', 'H', '1999', 'https://www.basketball-reference.com/boxscores/199905230PHI.html']];
+var steals_high = ['0048100039', 'Maurice Cheeks', 19, 11, 2, 4, 0, 'Celtics', 'A', '1982', 'https://www.basketball-reference.com/boxscores/198205230BOS.html'];
+var rebounds_high = ['0049800052', 'Matt Geiger', 23, 0, 13, 2, 1, 'Pacers', 'H', '1999', 'https://www.basketball-reference.com/boxscores/199905230PHI.html'];
+var assists_high = ['0048100039', 'Maurice Cheeks', 19, 11, 2, 4, 0, 'Celtics', 'A', '1982', 'https://www.basketball-reference.com/boxscores/198205230BOS.html'];
+var points_high = ['0048100039', 'Andrew Toney', 34, 6, 3, 0, 0, 'Celtics', 'A', '1982', 'https://www.basketball-reference.com/boxscores/198205230BOS.html'];
+var date = 'May 23rd';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";

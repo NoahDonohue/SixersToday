@@ -7,16 +7,13 @@ Created on Wed May  6 18:48:07 2020
 
 import time
 import ast
-
+import datetime
 
 from nba_api.stats.endpoints import scoreboardv2
 from nba_api.stats.endpoints import boxscoretraditionalv2
 from nba_api.stats.static import teams
 
-
-
-
-import datetime 
+ 
 
 ordinal = lambda n: "%d%s" % (n,"tsnrhtdd"[(n/10%10!=1)*(n%10<4)*n%10::4])
 monthDict={1:'January', 2:'February', 3:'March', 4:'April', 5:'May', 6:'June', 7:'July', 8:'August', 9:'September', 10:'October', 11:'November', 12:'December'}
