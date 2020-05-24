@@ -1,9 +1,9 @@
-var blocks_high = ['0048100039', 'Julius Erving', 29, 5, 4, 3, 3, 'Celtics', 'A', '1982', 'https://www.basketball-reference.com/boxscores/198205230BOS.html', ['0049800052', 'Larry Hughes', 3, 0, 4, 0, 3, 'Pacers', 'H', '1999', 'https://www.basketball-reference.com/boxscores/199905230PHI.html']];
-var steals_high = ['0048100039', 'Maurice Cheeks', 19, 11, 2, 4, 0, 'Celtics', 'A', '1982', 'https://www.basketball-reference.com/boxscores/198205230BOS.html'];
-var rebounds_high = ['0049800052', 'Matt Geiger', 23, 0, 13, 2, 1, 'Pacers', 'H', '1999', 'https://www.basketball-reference.com/boxscores/199905230PHI.html'];
-var assists_high = ['0048100039', 'Maurice Cheeks', 19, 11, 2, 4, 0, 'Celtics', 'A', '1982', 'https://www.basketball-reference.com/boxscores/198205230BOS.html'];
-var points_high = ['0048100039', 'Andrew Toney', 34, 6, 3, 0, 0, 'Celtics', 'A', '1982', 'https://www.basketball-reference.com/boxscores/198205230BOS.html'];
-var date = 'May 23rd';
+var blocks_high = ['0040000077', 'Dikembe Mutombo', 18, 0, 20, 0, 1, 'Bucks', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200105240PHI.html'];
+var steals_high = ['0040000077', 'Allen Iverson', 16, 9, 3, 3, 0, 'Bucks', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200105240PHI.html'];
+var rebounds_high = ['0040000077', 'Dikembe Mutombo', 18, 0, 20, 0, 1, 'Bucks', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200105240PHI.html'];
+var assists_high = ['0040000077', 'Allen Iverson', 16, 9, 3, 3, 0, 'Bucks', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200105240PHI.html'];
+var points_high = ['0040000077', 'Aaron McKie', 21, 3, 7, 1, 0, 'Bucks', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200105240PHI.html'];
+var date = 'May 24th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
