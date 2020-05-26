@@ -113,11 +113,11 @@ def find_todays_sixers_games():
 
 def get_todays_high_player_stats(sixers_scores):
 
-    points_high = [0, "Guy Fakename", 0, 0, 0, 0, 0, "Fake Team", "H", "0000", "https://www.basketball-reference.com"]
-    assists_high = [0, "Guy Fakename", 0, 0, 0, 0, 0, "Fake Team", "H", "0000", "https://www.basketball-reference.com"]
-    rebounds_high = [0, "Guy Fakename", 0, 0, 0, 0, 0, "Fake Team", "H", "0000", "https://www.basketball-reference.com"]
-    steals_high = [0, "Guy Fakename", 0, 0, 0, 0, 0, "Fake Team", "H", "0000", "https://www.basketball-reference.com"]
-    blocks_high = [0, "Guy Fakename", 0, 0, 0, 0, 0, "Fake Team", "H", "0000", "https://www.basketball-reference.com"]
+    points_high = [0, "No Games", 0, 0, 0, 0, 0, "Fake Team", "H", "0000", "https://www.basketball-reference.com"]
+    assists_high = [0, "No Games", 0, 0, 0, 0, 0, "Fake Team", "H", "0000", "https://www.basketball-reference.com"]
+    rebounds_high = [0, "No Games", 0, 0, 0, 0, 0, "Fake Team", "H", "0000", "https://www.basketball-reference.com"]
+    steals_high = [0, "No Games", 0, 0, 0, 0, 0, "Fake Team", "H", "0000", "https://www.basketball-reference.com"]
+    blocks_high = [0, "No Games", 0, 0, 0, 0, 0, "Fake Team", "H", "0000", "https://www.basketball-reference.com"]
     #f = open("TodaysSixersBoxScores.txt", "r")
     
     for game_list in sixers_scores:
