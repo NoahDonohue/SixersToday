@@ -1,9 +1,9 @@
-var blocks_high = ['0047600402', 'Darryl Dawkins', 8, 3, 5, 1, 5, 'Trail Blazers', 'H', '1977', 'https://www.basketball-reference.com/boxscores/197705260PHI.html', ['0047600402', 'Doug Collins', 27, 3, 5, 4, 0, 'Trail Blazers', 'H', '1977', 'https://www.basketball-reference.com/boxscores/197705260PHI.html']];
-var steals_high = ['0047600402', 'Julius Erving', 20, 4, 4, 5, 0, 'Trail Blazers', 'H', '1977', 'https://www.basketball-reference.com/boxscores/197705260PHI.html', ['0041100217', 'Jrue Holiday', 15, 9, 3, 5, 0, 'Celtics', 'A', '2012', 'https://www.basketball-reference.com/boxscores/201205260BOS.html']];
-var rebounds_high = ['0047600402', 'Caldwell Jones', 10, 0, 14, 0, 2, 'Trail Blazers', 'H', '1977', 'https://www.basketball-reference.com/boxscores/197705260PHI.html'];
-var assists_high = ['0047600402', 'Henry Bibby', 15, 11, 3, 2, 0, 'Trail Blazers', 'H', '1977', 'https://www.basketball-reference.com/boxscores/197705260PHI.html'];
-var points_high = ['0047600402', 'Doug Collins', 27, 3, 5, 4, 0, 'Trail Blazers', 'H', '1977', 'https://www.basketball-reference.com/boxscores/197705260PHI.html'];
-var date = 'May 26th';
+var blocks_high = ['0048100040', 'Caldwell Jones', 6, 1, 11, 0, 4, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205270PHI.html'];
+var steals_high = ['0048100040', 'Julius Erving', 27, 3, 9, 3, 1, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205270PHI.html', ['0048100040', 'Lionel Hollins', 6, 3, 2, 3, 0, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205270PHI.html'], ['0048100040', 'Maurice Cheeks', 12, 9, 1, 3, 0, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205270PHI.html']];
+var rebounds_high = ['0048100040', 'Caldwell Jones', 6, 1, 11, 0, 4, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205270PHI.html'];
+var assists_high = ['0048100040', 'Andrew Toney', 20, 9, 0, 0, 0, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205270PHI.html', ['0048100040', 'Maurice Cheeks', 12, 9, 1, 3, 0, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205270PHI.html']];
+var points_high = ['0048100040', 'Julius Erving', 27, 3, 9, 3, 1, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205270PHI.html', ['0048100040', 'Lionel Hollins', 6, 3, 2, 3, 0, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205270PHI.html'], ['0048100040', 'Maurice Cheeks', 12, 9, 1, 3, 0, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205270PHI.html']];
+var date = 'May 27th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
