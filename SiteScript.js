@@ -1,9 +1,9 @@
-var blocks_high = ['0048100040', 'Caldwell Jones', 6, 1, 11, 0, 4, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205270PHI.html'];
-var steals_high = ['0048100040', 'Julius Erving', 27, 3, 9, 3, 1, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205270PHI.html', ['0048100040', 'Lionel Hollins', 6, 3, 2, 3, 0, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205270PHI.html'], ['0048100040', 'Maurice Cheeks', 12, 9, 1, 3, 0, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205270PHI.html']];
-var rebounds_high = ['0048100040', 'Caldwell Jones', 6, 1, 11, 0, 4, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205270PHI.html'];
-var assists_high = ['0048100040', 'Andrew Toney', 20, 9, 0, 0, 0, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205270PHI.html', ['0048100040', 'Maurice Cheeks', 12, 9, 1, 3, 0, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205270PHI.html']];
-var points_high = ['0048100040', 'Julius Erving', 27, 3, 9, 3, 1, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205270PHI.html', ['0048100040', 'Lionel Hollins', 6, 3, 2, 3, 0, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205270PHI.html'], ['0048100040', 'Maurice Cheeks', 12, 9, 1, 3, 0, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205270PHI.html']];
-var date = 'May 27th';
+var blocks_high = ['0040000079', 'Dikembe Mutombo', 17, 0, 15, 0, 4, 'Bucks', 'A', '2001', 'https://www.basketball-reference.com/boxscores/200105280MIL.html'];
+var steals_high = ['0040000079', 'Eric Snow', 6, 3, 4, 3, 0, 'Bucks', 'A', '2001', 'https://www.basketball-reference.com/boxscores/200105280MIL.html'];
+var rebounds_high = ['0040000079', 'Dikembe Mutombo', 17, 0, 15, 0, 4, 'Bucks', 'A', '2001', 'https://www.basketball-reference.com/boxscores/200105280MIL.html'];
+var assists_high = ['0040000079', 'Aaron McKie', 11, 9, 4, 1, 0, 'Bucks', 'A', '2001', 'https://www.basketball-reference.com/boxscores/200105280MIL.html'];
+var points_high = ['0040000079', 'Allen Iverson', 28, 8, 5, 2, 0, 'Bucks', 'A', '2001', 'https://www.basketball-reference.com/boxscores/200105280MIL.html'];
+var date = 'May 28th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
