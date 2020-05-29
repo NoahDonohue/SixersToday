@@ -1,9 +1,9 @@
-var blocks_high = ['0040000079', 'Dikembe Mutombo', 17, 0, 15, 0, 4, 'Bucks', 'A', '2001', 'https://www.basketball-reference.com/boxscores/200105280MIL.html'];
-var steals_high = ['0040000079', 'Eric Snow', 6, 3, 4, 3, 0, 'Bucks', 'A', '2001', 'https://www.basketball-reference.com/boxscores/200105280MIL.html'];
-var rebounds_high = ['0040000079', 'Dikembe Mutombo', 17, 0, 15, 0, 4, 'Bucks', 'A', '2001', 'https://www.basketball-reference.com/boxscores/200105280MIL.html'];
-var assists_high = ['0040000079', 'Aaron McKie', 11, 9, 4, 1, 0, 'Bucks', 'A', '2001', 'https://www.basketball-reference.com/boxscores/200105280MIL.html'];
-var points_high = ['0040000079', 'Allen Iverson', 28, 8, 5, 2, 0, 'Bucks', 'A', '2001', 'https://www.basketball-reference.com/boxscores/200105280MIL.html'];
-var date = 'May 28th';
+var blocks_high = ['0047600403', 'Darryl Dawkins', 6, 1, 9, 0, 3, 'Trail Blazers', 'A', '1977', 'https://www.basketball-reference.com/boxscores/197705290POR.html'];
+var steals_high = ['0048200042', 'Maurice Cheeks', 12, 5, 3, 4, 0, 'Lakers', 'A', '1983', 'https://www.basketball-reference.com/boxscores/198305290LAL.html'];
+var rebounds_high = ['0048200042', 'Moses Malone', 28, 6, 19, 3, 0, 'Lakers', 'A', '1983', 'https://www.basketball-reference.com/boxscores/198305290LAL.html'];
+var assists_high = ['0048200042', 'Moses Malone', 28, 6, 19, 3, 0, 'Lakers', 'A', '1983', 'https://www.basketball-reference.com/boxscores/198305290LAL.html'];
+var points_high = ['0047600403', 'Julius Erving', 28, 5, 11, 2, 1, 'Trail Blazers', 'A', '1977', 'https://www.basketball-reference.com/boxscores/197705290POR.html', ['0048200042', 'Andrew Toney', 21, 5, 2, 2, 0, 'Lakers', 'A', '1983', 'https://www.basketball-reference.com/boxscores/198305290LAL.html'], ['0048200042', 'Maurice Cheeks', 12, 5, 3, 4, 0, 'Lakers', 'A', '1983', 'https://www.basketball-reference.com/boxscores/198305290LAL.html'], ['0048200042', 'Moses Malone', 28, 6, 19, 3, 0, 'Lakers', 'A', '1983', 'https://www.basketball-reference.com/boxscores/198305290LAL.html']];
+var date = 'May 29th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
