@@ -1,9 +1,9 @@
-var blocks_high = ['0048100041', 'Caldwell Jones', 12, 0, 11, 1, 3, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205300PHI.html'];
-var steals_high = ['0040000080', 'Allen Iverson', 15, 8, 9, 4, 1, 'Bucks', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200105300PHI.html'];
-var rebounds_high = ['0048100041', 'Julius Erving', 24, 3, 14, 0, 2, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205300PHI.html'];
-var assists_high = ['0048100041', 'Andrew Toney', 12, 11, 1, 1, 0, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205300PHI.html', ['0048100041', 'Caldwell Jones', 12, 0, 11, 1, 3, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205300PHI.html'], ['0048100041', 'Caldwell Jones', 12, 0, 11, 1, 3, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205300PHI.html'], ['0048100041', 'Maurice Cheeks', 19, 8, 1, 1, 0, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205300PHI.html'], ['0048100041', 'Mike Bantom', 8, 0, 5, 1, 2, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205300PHI.html'], ['0040000080', 'Jumaine Jones', 8, 2, 6, 1, 0, 'Bucks', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200105300PHI.html'], ['0040000080', 'Tyrone Hill', 8, 0, 9, 1, 1, 'Bucks', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200105300PHI.html'], ['0040000080', 'Dikembe Mutombo', 21, 2, 13, 1, 2, 'Bucks', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200105300PHI.html']];
-var points_high = ['0048100041', 'Julius Erving', 24, 3, 14, 0, 2, 'Lakers', 'H', '1982', 'https://www.basketball-reference.com/boxscores/198205300PHI.html'];
-var date = 'May 30th';
+var blocks_high = ['0048200043', 'Moses Malone', 24, 1, 23, 1, 3, 'Lakers', 'A', '1983', 'https://www.basketball-reference.com/boxscores/198305310LAL.html'];
+var steals_high = ['0048200043', 'Bobby Jones', 13, 2, 3, 4, 2, 'Lakers', 'A', '1983', 'https://www.basketball-reference.com/boxscores/198305310LAL.html'];
+var rebounds_high = ['0048200043', 'Moses Malone', 24, 1, 23, 1, 3, 'Lakers', 'A', '1983', 'https://www.basketball-reference.com/boxscores/198305310LAL.html'];
+var assists_high = ['0048200043', 'Andrew Toney', 23, 9, 2, 1, 1, 'Lakers', 'A', '1983', 'https://www.basketball-reference.com/boxscores/198305310LAL.html'];
+var points_high = ['0047600404', 'Julius Erving', 24, 2, 6, 3, 1, 'Trail Blazers', 'A', '1977', 'https://www.basketball-reference.com/boxscores/197705310POR.html', ['0048200043', 'Moses Malone', 24, 1, 23, 1, 3, 'Lakers', 'A', '1983', 'https://www.basketball-reference.com/boxscores/198305310LAL.html']];
+var date = 'May 31st';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
