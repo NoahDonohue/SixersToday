@@ -25,13 +25,28 @@ day = today.day
 month = today.month
 date = monthDict[month] + " " + ordinal(day)
 
+
+def url_day_format(day):
+    # This formats the first 9 days of the month to 01, 02, 03, 04 etc
+    # Necessary for the basketball reference links to work
+    if day < 10:
+        day = str(0) + str(day)
+    else:
+        pass
+    
+    return day
+
 def line_prepender(filename, line):
+    #Used to write to the top of a file
     with open(filename, 'r+') as f:
         content = f.read()
         f.seek(0, 0)
         f.write(line.rstrip('\r\n') + '\n' + content)
 
 def write_javascript_file(date, points, assists, rebounds, steals, blocks):
+    # dynamically writes a javascript file with the data for each stat in a differet variable
+    # Then it sets the appropriate HTML elements to the valyes in each list
+    
     f = open("SiteScript.js", "w")
     
     f.write("document.getElementById(\"date\").innerHTML =  date;\n")
@@ -69,6 +84,9 @@ def write_javascript_file(date, points, assists, rebounds, steals, blocks):
     line_prepender("SiteScript.js","var blocks_high = " + str(blocks)+ ";")
 
 def get_games_on_this_date():
+    # This iterates over every year in the league's history and pulls every game on the current date.
+    # The game data is written to a file
+    
     years = range(1949, 2022)
     all_games = []
 
@@ -86,6 +104,9 @@ def get_games_on_this_date():
     f.close()
 
 def find_todays_sixers_games():
+    # This iterates over all games in the all_games file, identies the games involving the Sixers,
+    # and writes the relevant game data to a file
+    
     sixers_games = []
     f = open("AllGamesOnThisDate.txt", "r")
     
@@ -113,12 +134,16 @@ def find_todays_sixers_games():
 
 def get_todays_high_player_stats(sixers_scores):
 
-    points_high = [0, "No Games", 0, 0, 0, 0, 0, "Fake Team", "H", "0000", "https://www.basketball-reference.com"]
-    assists_high = [0, "No Games", 0, 0, 0, 0, 0, "Fake Team", "H", "0000", "https://www.basketball-reference.com"]
-    rebounds_high = [0, "No Games", 0, 0, 0, 0, 0, "Fake Team", "H", "0000", "https://www.basketball-reference.com"]
-    steals_high = [0, "No Games", 0, 0, 0, 0, 0, "Fake Team", "H", "0000", "https://www.basketball-reference.com"]
-    blocks_high = [0, "No Games", 0, 0, 0, 0, 0, "Fake Team", "H", "0000", "https://www.basketball-reference.com"]
-    #f = open("TodaysSixersBoxScores.txt", "r")
+    # Each player in the box score is iterated over and checked to see if they had the highest
+    # of any stat for that day.
+    
+    high_default = [0, "No Games", 0, 0, 0, 0, 0, "Nobody", "H", "0000", "https://www.basketball-reference.com"]
+    points_high = high_default
+    assists_high = high_default
+    rebounds_high = high_default
+    steals_high = high_default
+    blocks_high = high_default
+ 
     
     for game_list in sixers_scores:
       
@@ -134,9 +159,9 @@ def get_todays_high_player_stats(sixers_scores):
                 player_info = [player[0], player[5], player[26],player[21],player[20],player[22],player[23], teams.find_team_name_by_id(game_list[1])['nickname'], game_list[2], game_list[3]]
                 #append basketball reference URL
                 if player_info[8] == "H":
-                    player_info.append("https://www.basketball-reference.com/boxscores/" + player_info[9] + "0" + str(month) + str(day) + "0" + "PHI.html")
+                    player_info.append("https://www.basketball-reference.com/boxscores/" + player_info[9] + "0" + str(month) + url_day_format(day) + "0" + "PHI.html")
                 else:
-                    player_info.append("https://www.basketball-reference.com/boxscores/" + player_info[9] + "0" + str(month) + str(day) + "0" + (teams.find_teams_by_nickname(player_info[7])[0]["abbreviation"]) +".html")
+                    player_info.append("https://www.basketball-reference.com/boxscores/" + player_info[9] + "0" + str(month) + url_day_format(day) + "0" + (teams.find_teams_by_nickname(player_info[7])[0]["abbreviation"]) +".html")
                     
                 #check if player has highest points. If None type replace with 0
                 if player_info[2] != None:
@@ -194,6 +219,8 @@ def get_todays_high_player_stats(sixers_scores):
 
 
 def find_todays_sixers_boxscores():
+# This  function uses the Game IDs from the TodaysSixersGameIDs to pull the box score from each game
+# each box score is then checked for the high stats for the date    
     f = open("TodaysSixerGameIDs.txt", "r")
     box_scores = []
 
