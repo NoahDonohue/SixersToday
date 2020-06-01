@@ -1,9 +1,9 @@
-var blocks_high = ['0048200043', 'Moses Malone', 24, 1, 23, 1, 3, 'Lakers', 'A', '1983', 'https://www.basketball-reference.com/boxscores/198305310LAL.html'];
-var steals_high = ['0048200043', 'Bobby Jones', 13, 2, 3, 4, 2, 'Lakers', 'A', '1983', 'https://www.basketball-reference.com/boxscores/198305310LAL.html'];
-var rebounds_high = ['0048200043', 'Moses Malone', 24, 1, 23, 1, 3, 'Lakers', 'A', '1983', 'https://www.basketball-reference.com/boxscores/198305310LAL.html'];
-var assists_high = ['0048200043', 'Andrew Toney', 23, 9, 2, 1, 1, 'Lakers', 'A', '1983', 'https://www.basketball-reference.com/boxscores/198305310LAL.html'];
-var points_high = ['0047600404', 'Julius Erving', 24, 2, 6, 3, 1, 'Trail Blazers', 'A', '1977', 'https://www.basketball-reference.com/boxscores/197705310POR.html', ['0048200043', 'Moses Malone', 24, 1, 23, 1, 3, 'Lakers', 'A', '1983', 'https://www.basketball-reference.com/boxscores/198305310LAL.html']];
-var date = 'May 31st';
+var blocks_high = ['0048100042', 'Darryl Dawkins', 14, 0, 13, 0, 3, 'Lakers', 'A', '1982', 'https://www.basketball-reference.com/boxscores/19820610LAL.html'];
+var steals_high = ['0040000081', 'Raja Bell', 8, 2, 1, 3, 0, 'Bucks', 'A', '2001', 'https://www.basketball-reference.com/boxscores/20010610MIL.html'];
+var rebounds_high = ['0040000081', 'Dikembe Mutombo', 10, 2, 14, 0, 1, 'Bucks', 'A', '2001', 'https://www.basketball-reference.com/boxscores/20010610MIL.html'];
+var assists_high = ['0048100042', 'Maurice Cheeks', 17, 9, 1, 2, 0, 'Lakers', 'A', '1982', 'https://www.basketball-reference.com/boxscores/19820610LAL.html', ['0040000081', 'Aaron McKie', 12, 9, 3, 1, 0, 'Bucks', 'A', '2001', 'https://www.basketball-reference.com/boxscores/20010610MIL.html']];
+var points_high = ['0040000081', 'Allen Iverson', 46, 3, 2, 1, 1, 'Bucks', 'A', '2001', 'https://www.basketball-reference.com/boxscores/20010610MIL.html'];
+var date = 'June 1st';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
