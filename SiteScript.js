@@ -1,9 +1,9 @@
-var blocks_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var steals_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var rebounds_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var assists_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var points_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var date = 'June 2nd';
+var blocks_high = ['0040000082', 'Dikembe Mutombo', 23, 2, 19, 1, 7, 'Bucks', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106030PHI.html'];
+var steals_high = ['0047600405', 'Doug Collins', 23, 4, 5, 4, 0, 'Trail Blazers', 'H', '1977', 'https://www.basketball-reference.com/boxscores/197706030PHI.html', ['0040000082', 'Aaron McKie', 10, 13, 6, 4, 0, 'Bucks', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106030PHI.html']];
+var rebounds_high = ['0040000082', 'Dikembe Mutombo', 23, 2, 19, 1, 7, 'Bucks', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106030PHI.html'];
+var assists_high = ['0040000082', 'Aaron McKie', 10, 13, 6, 4, 0, 'Bucks', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106030PHI.html'];
+var points_high = ['0040000082', 'Allen Iverson', 44, 7, 6, 2, 0, 'Bucks', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106030PHI.html'];
+var date = 'June 3rd';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
