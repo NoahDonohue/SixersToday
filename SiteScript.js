@@ -1,9 +1,9 @@
-var blocks_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var steals_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var rebounds_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var assists_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var points_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var date = 'June 4th';
+var blocks_high = ['0047600100', 'Caldwell Jones', 10, 2, 4, 1, 4, 'Trail Blazers', 'A', '1977', 'https://www.basketball-reference.com/boxscores/197706050POR.html', ['0047600100', 'Doug Collins', 6, 2, 5, 1, 0, 'Trail Blazers', 'A', '1977', 'https://www.basketball-reference.com/boxscores/197706050POR.html'], ['0047600100', 'Doug Collins', 6, 2, 5, 1, 0, 'Trail Blazers', 'A', '1977', 'https://www.basketball-reference.com/boxscores/197706050POR.html'], ['0047600100', 'George McGinnis', 28, 2, 16, 4, 1, 'Trail Blazers', 'A', '1977', 'https://www.basketball-reference.com/boxscores/197706050POR.html']];
+var steals_high = ['0047600100', 'George McGinnis', 28, 2, 16, 4, 1, 'Trail Blazers', 'A', '1977', 'https://www.basketball-reference.com/boxscores/197706050POR.html'];
+var rebounds_high = ['0047600100', 'George McGinnis', 28, 2, 16, 4, 1, 'Trail Blazers', 'A', '1977', 'https://www.basketball-reference.com/boxscores/197706050POR.html'];
+var assists_high = ['0047600100', 'Julius Erving', 40, 8, 6, 2, 1, 'Trail Blazers', 'A', '1977', 'https://www.basketball-reference.com/boxscores/197706050POR.html'];
+var points_high = ['0047600100', 'Julius Erving', 40, 8, 6, 2, 1, 'Trail Blazers', 'A', '1977', 'https://www.basketball-reference.com/boxscores/197706050POR.html'];
+var date = 'June 5th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
