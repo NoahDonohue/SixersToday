@@ -1,9 +1,9 @@
-var blocks_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var steals_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var rebounds_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var assists_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var points_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var date = 'June 7th';
+var blocks_high = ['0048100045', 'Caldwell Jones', 2, 3, 9, 1, 4, 'Lakers', 'A', '1982', 'https://www.basketball-reference.com/boxscores/198206080LAL.html'];
+var steals_high = ['0048100045', 'Julius Erving', 30, 3, 8, 5, 1, 'Lakers', 'A', '1982', 'https://www.basketball-reference.com/boxscores/198206080LAL.html'];
+var rebounds_high = ['0040000084', 'Dikembe Mutombo', 16, 1, 13, 1, 1, 'Lakers', 'A', '2001', 'https://www.basketball-reference.com/boxscores/200106080LAL.html'];
+var assists_high = ['0048100045', 'Maurice Cheeks', 15, 9, 2, 2, 0, 'Lakers', 'A', '1982', 'https://www.basketball-reference.com/boxscores/198206080LAL.html'];
+var points_high = ['0048100045', 'Julius Erving', 30, 3, 8, 5, 1, 'Lakers', 'A', '1982', 'https://www.basketball-reference.com/boxscores/198206080LAL.html'];
+var date = 'June 8th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
