@@ -34,7 +34,7 @@ def url_day_format(day):
     else:
         pass
     
-    return day
+    return str(day)
 
 def line_prepender(filename, line):
     #Used to write to the top of a file
@@ -242,8 +242,8 @@ def find_todays_sixers_boxscores():
 
     
     
-get_games_on_this_date()
-find_todays_sixers_games()
+#get_games_on_this_date()
+#find_todays_sixers_games()
 find_todays_sixers_boxscores()
     
 

@@ -1,9 +1,9 @@
-var blocks_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var steals_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var rebounds_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var assists_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var points_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var date = 'June 9th';
+var blocks_high = ['0040000085', 'Dikembe Mutombo', 23, 0, 12, 1, 2, 'Lakers', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106100PHI.html', ['0040000085', 'Aaron McKie', 5, 8, 6, 0, 2, 'Lakers', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106100PHI.html'], ['0040000085', 'Allen Iverson', 35, 4, 12, 0, 1, 'Lakers', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106100PHI.html'], ['0040000085', 'Eric Snow', 14, 5, 6, 1, 0, 'Lakers', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106100PHI.html']];
+var steals_high = ['0040000085', 'Raja Bell', 2, 0, 2, 3, 0, 'Lakers', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106100PHI.html'];
+var rebounds_high = ['0040000085', 'Dikembe Mutombo', 23, 0, 12, 1, 2, 'Lakers', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106100PHI.html', ['0040000085', 'Aaron McKie', 5, 8, 6, 0, 2, 'Lakers', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106100PHI.html'], ['0040000085', 'Allen Iverson', 35, 4, 12, 0, 1, 'Lakers', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106100PHI.html'], ['0040000085', 'Eric Snow', 14, 5, 6, 1, 0, 'Lakers', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106100PHI.html']];
+var assists_high = ['0040000085', 'Aaron McKie', 5, 8, 6, 0, 2, 'Lakers', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106100PHI.html'];
+var points_high = ['0040000085', 'Allen Iverson', 35, 4, 12, 0, 1, 'Lakers', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106100PHI.html'];
+var date = 'June 10th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
