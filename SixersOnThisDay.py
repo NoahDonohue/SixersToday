@@ -242,8 +242,8 @@ def find_todays_sixers_boxscores():
 
     
     
-#get_games_on_this_date()
-#find_todays_sixers_games()
+get_games_on_this_date()
+find_todays_sixers_games()
 find_todays_sixers_boxscores()
     
 
