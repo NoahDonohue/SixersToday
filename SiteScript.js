@@ -1,9 +1,9 @@
-var blocks_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var steals_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var rebounds_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var assists_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var points_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var date = 'June 12nd';
+var blocks_high = ['0040000086', 'Dikembe Mutombo', 19, 0, 9, 0, 1, 'Lakers', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106130PHI.html'];
+var steals_high = ['0040000086', 'Eric Snow', 11, 4, 4, 3, 0, 'Lakers', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106130PHI.html'];
+var rebounds_high = ['0040000086', 'Dikembe Mutombo', 19, 0, 9, 0, 1, 'Lakers', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106130PHI.html'];
+var assists_high = ['0040000086', 'Allen Iverson', 35, 4, 4, 1, 0, 'Lakers', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106130PHI.html', ['0040000086', 'Eric Snow', 11, 4, 4, 3, 0, 'Lakers', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106130PHI.html']];
+var points_high = ['0040000086', 'Allen Iverson', 35, 4, 4, 1, 0, 'Lakers', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106130PHI.html', ['0040000086', 'Eric Snow', 11, 4, 4, 3, 0, 'Lakers', 'H', '2001', 'https://www.basketball-reference.com/boxscores/200106130PHI.html']];
+var date = 'June 13rd';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
