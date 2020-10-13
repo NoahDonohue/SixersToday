@@ -1,9 +1,9 @@
-var blocks_high = ['0011700048', 'Ben Simmons', 15, 2, 6, 1, 2, 'Celtics', 'A', '2017', 'https://www.basketball-reference.com/boxscores/2017010090BOS.html'];
-var steals_high = ['0011000031', 'Evan Turner', 14, 7, 6, 6, 1, 'Nets', 'A', '2010', 'https://www.basketball-reference.com/boxscores/2010010090BKN.html'];
-var rebounds_high = ['0011000031', 'Elton Brand', 8, 0, 11, 0, 0, 'Nets', 'A', '2010', 'https://www.basketball-reference.com/boxscores/2010010090BKN.html'];
-var assists_high = ['0011000031', 'Evan Turner', 14, 7, 6, 6, 1, 'Nets', 'A', '2010', 'https://www.basketball-reference.com/boxscores/2010010090BKN.html'];
-var points_high = ['0011000031', 'Andre Iguodala', 20, 2, 7, 3, 0, 'Nets', 'A', '2010', 'https://www.basketball-reference.com/boxscores/2010010090BKN.html'];
-var date = 'October 9th';
+var blocks_high = ['0027800003', 'Darryl Dawkins', 10, 1, 12, 0, 3, 'Lakers', 'H', '1978', 'https://www.basketball-reference.com/boxscores/1978010130PHI.html', ['0011700068', 'Emeka Okafor', 2, 0, 4, 0, 3, 'Heat', 'H', '2017', 'https://www.basketball-reference.com/boxscores/2017010130PHI.html']];
+var steals_high = ['0011900049', 'Josh Richardson', 13, 5, 4, 5, 0, 'Magic', 'A', '2019', 'https://www.basketball-reference.com/boxscores/2019010130ORL.html'];
+var rebounds_high = ['0027200010', 'Bill Bridges', 16, 1, 21, 0, 0, 'Clippers', 'H', '1972', 'https://www.basketball-reference.com/boxscores/1972010130PHI.html', ['0027200010', 'Dale Schlueter', 4, 1, 7, 0, 0, 'Clippers', 'H', '1972', 'https://www.basketball-reference.com/boxscores/1972010130PHI.html'], ['0027200010', 'Emanuel Leaks', 13, 1, 11, 0, 0, 'Clippers', 'H', '1972', 'https://www.basketball-reference.com/boxscores/1972010130PHI.html']];
+var assists_high = ['0027200010', 'Hal Greer', 8, 13, 6, 0, 0, 'Clippers', 'H', '1972', 'https://www.basketball-reference.com/boxscores/1972010130PHI.html'];
+var points_high = ['0027900013', 'Julius Erving', 44, 9, 6, 0, 0, 'Rockets', 'H', '1979', 'https://www.basketball-reference.com/boxscores/1979010130PHI.html'];
+var date = 'October 13rd';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
