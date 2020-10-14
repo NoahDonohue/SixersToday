@@ -1,9 +1,9 @@
-var blocks_high = ['0027800003', 'Darryl Dawkins', 10, 1, 12, 0, 3, 'Lakers', 'H', '1978', 'https://www.basketball-reference.com/boxscores/1978010130PHI.html', ['0011700068', 'Emeka Okafor', 2, 0, 4, 0, 3, 'Heat', 'H', '2017', 'https://www.basketball-reference.com/boxscores/2017010130PHI.html']];
-var steals_high = ['0011900049', 'Josh Richardson', 13, 5, 4, 5, 0, 'Magic', 'A', '2019', 'https://www.basketball-reference.com/boxscores/2019010130ORL.html'];
-var rebounds_high = ['0027200010', 'Bill Bridges', 16, 1, 21, 0, 0, 'Clippers', 'H', '1972', 'https://www.basketball-reference.com/boxscores/1972010130PHI.html', ['0027200010', 'Dale Schlueter', 4, 1, 7, 0, 0, 'Clippers', 'H', '1972', 'https://www.basketball-reference.com/boxscores/1972010130PHI.html'], ['0027200010', 'Emanuel Leaks', 13, 1, 11, 0, 0, 'Clippers', 'H', '1972', 'https://www.basketball-reference.com/boxscores/1972010130PHI.html']];
-var assists_high = ['0027200010', 'Hal Greer', 8, 13, 6, 0, 0, 'Clippers', 'H', '1972', 'https://www.basketball-reference.com/boxscores/1972010130PHI.html'];
-var points_high = ['0027900013', 'Julius Erving', 44, 9, 6, 0, 0, 'Rockets', 'H', '1979', 'https://www.basketball-reference.com/boxscores/1979010130PHI.html'];
-var date = 'October 13rd';
+var blocks_high = ['0010600034', 'Shavlik Randolph', 13, 1, 7, 0, 4, 'Knicks', 'H', '2006', 'https://www.basketball-reference.com/boxscores/2006010140PHI.html'];
+var steals_high = ['0010500026', 'Lee Nailon', 14, 0, 5, 4, 0, 'Cavaliers', 'A', '2005', 'https://www.basketball-reference.com/boxscores/2005010140CLE.html', ['0011400048', 'Nerlens Noel', 12, 3, 11, 4, 1, 'Knicks', 'H', '2014', 'https://www.basketball-reference.com/boxscores/2014010140PHI.html']];
+var rebounds_high = ['0027000007', 'Lucious Jackson', 16, 3, 12, 0, 0, 'Bulls', 'H', '1970', 'https://www.basketball-reference.com/boxscores/1970010140PHI.html'];
+var assists_high = ['0010600034', 'Allen Iverson', 12, 8, 3, 1, 0, 'Knicks', 'H', '2006', 'https://www.basketball-reference.com/boxscores/2006010140PHI.html'];
+var points_high = ['0027100006', 'Billy Cunningham', 41, 0, 0, 0, 0, 'Rockets', 'A', '1971', 'https://www.basketball-reference.com/boxscores/1971010140HOU.html'];
+var date = 'October 14th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
