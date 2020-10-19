@@ -1,9 +1,9 @@
-var blocks_high = ['0010600034', 'Shavlik Randolph', 13, 1, 7, 0, 4, 'Knicks', 'H', '2006', 'https://www.basketball-reference.com/boxscores/2006010140PHI.html'];
-var steals_high = ['0010500026', 'Lee Nailon', 14, 0, 5, 4, 0, 'Cavaliers', 'A', '2005', 'https://www.basketball-reference.com/boxscores/2005010140CLE.html', ['0011400048', 'Nerlens Noel', 12, 3, 11, 4, 1, 'Knicks', 'H', '2014', 'https://www.basketball-reference.com/boxscores/2014010140PHI.html']];
-var rebounds_high = ['0027000007', 'Lucious Jackson', 16, 3, 12, 0, 0, 'Bulls', 'H', '1970', 'https://www.basketball-reference.com/boxscores/1970010140PHI.html'];
-var assists_high = ['0010600034', 'Allen Iverson', 12, 8, 3, 1, 0, 'Knicks', 'H', '2006', 'https://www.basketball-reference.com/boxscores/2006010140PHI.html'];
-var points_high = ['0027100006', 'Billy Cunningham', 41, 0, 0, 0, 0, 'Rockets', 'A', '1971', 'https://www.basketball-reference.com/boxscores/1971010140HOU.html'];
-var date = 'October 14th';
+var blocks_high = ['0011200077', 'Spencer Hawes', 13, 3, 5, 3, 2, 'Nets', 'A', '2012', 'https://www.basketball-reference.com/boxscores/2012010190BKN.html', ['0011200077', 'Thaddeus Young', 24, 0, 9, 1, 2, 'Nets', 'A', '2012', 'https://www.basketball-reference.com/boxscores/2012010190BKN.html']];
+var steals_high = ['0011200077', 'Jason Richardson', 13, 2, 6, 3, 0, 'Nets', 'A', '2012', 'https://www.basketball-reference.com/boxscores/2012010190BKN.html', ['0011200077', 'Spencer Hawes', 13, 3, 5, 3, 2, 'Nets', 'A', '2012', 'https://www.basketball-reference.com/boxscores/2012010190BKN.html', ['0011200077', 'Thaddeus Young', 24, 0, 9, 1, 2, 'Nets', 'A', '2012', 'https://www.basketball-reference.com/boxscores/2012010190BKN.html']]];
+var rebounds_high = ['0027700011', 'George McGinnis', 32, 7, 22, 0, 0, 'Pistons', 'H', '1977', 'https://www.basketball-reference.com/boxscores/1977010190PHI.html'];
+var assists_high = ['0027900047', 'Maurice Cheeks', 9, 14, 4, 0, 0, 'Pistons', 'H', '1979', 'https://www.basketball-reference.com/boxscores/1979010190PHI.html'];
+var points_high = ['0027900047', 'Julius Erving', 36, 7, 10, 0, 0, 'Pistons', 'H', '1979', 'https://www.basketball-reference.com/boxscores/1979010190PHI.html'];
+var date = 'October 19th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
