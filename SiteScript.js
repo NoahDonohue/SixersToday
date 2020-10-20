@@ -1,9 +1,9 @@
-var blocks_high = ['0011200077', 'Spencer Hawes', 13, 3, 5, 3, 2, 'Nets', 'A', '2012', 'https://www.basketball-reference.com/boxscores/2012010190BKN.html', ['0011200077', 'Thaddeus Young', 24, 0, 9, 1, 2, 'Nets', 'A', '2012', 'https://www.basketball-reference.com/boxscores/2012010190BKN.html']];
-var steals_high = ['0011200077', 'Jason Richardson', 13, 2, 6, 3, 0, 'Nets', 'A', '2012', 'https://www.basketball-reference.com/boxscores/2012010190BKN.html', ['0011200077', 'Spencer Hawes', 13, 3, 5, 3, 2, 'Nets', 'A', '2012', 'https://www.basketball-reference.com/boxscores/2012010190BKN.html', ['0011200077', 'Thaddeus Young', 24, 0, 9, 1, 2, 'Nets', 'A', '2012', 'https://www.basketball-reference.com/boxscores/2012010190BKN.html']]];
-var rebounds_high = ['0027700011', 'George McGinnis', 32, 7, 22, 0, 0, 'Pistons', 'H', '1977', 'https://www.basketball-reference.com/boxscores/1977010190PHI.html'];
-var assists_high = ['0027900047', 'Maurice Cheeks', 9, 14, 4, 0, 0, 'Pistons', 'H', '1979', 'https://www.basketball-reference.com/boxscores/1979010190PHI.html'];
-var points_high = ['0027900047', 'Julius Erving', 36, 7, 10, 0, 0, 'Pistons', 'H', '1979', 'https://www.basketball-reference.com/boxscores/1979010190PHI.html'];
-var date = 'October 19th';
+var blocks_high = ['0011400087', 'KJ McDaniels', 5, 0, 3, 0, 4, 'Nets', 'A', '2014', 'https://www.basketball-reference.com/boxscores/2014010200BKN.html'];
+var steals_high = ['0010500062', 'Andre Iguodala', 15, 7, 5, 6, 2, 'Cavaliers', 'H', '2005', 'https://www.basketball-reference.com/boxscores/2005010200PHI.html'];
+var rebounds_high = ['0027900053', 'Caldwell Jones', 8, 2, 16, 0, 2, 'Knicks', 'A', '1979', 'https://www.basketball-reference.com/boxscores/1979010200NYK.html'];
+var assists_high = ['0027900053', 'Maurice Cheeks', 16, 13, 4, 0, 1, 'Knicks', 'A', '1979', 'https://www.basketball-reference.com/boxscores/1979010200NYK.html'];
+var points_high = ['0010500062', 'Allen Iverson', 36, 7, 2, 4, 0, 'Cavaliers', 'H', '2005', 'https://www.basketball-reference.com/boxscores/2005010200PHI.html'];
+var date = 'October 20th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
