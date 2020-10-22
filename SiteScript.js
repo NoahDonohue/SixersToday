@@ -1,9 +1,9 @@
-var blocks_high = ['0011400087', 'KJ McDaniels', 5, 0, 3, 0, 4, 'Nets', 'A', '2014', 'https://www.basketball-reference.com/boxscores/2014010200BKN.html'];
-var steals_high = ['0010500062', 'Andre Iguodala', 15, 7, 5, 6, 2, 'Cavaliers', 'H', '2005', 'https://www.basketball-reference.com/boxscores/2005010200PHI.html'];
-var rebounds_high = ['0027900053', 'Caldwell Jones', 8, 2, 16, 0, 2, 'Knicks', 'A', '1979', 'https://www.basketball-reference.com/boxscores/1979010200NYK.html'];
-var assists_high = ['0027900053', 'Maurice Cheeks', 16, 13, 4, 0, 1, 'Knicks', 'A', '1979', 'https://www.basketball-reference.com/boxscores/1979010200NYK.html'];
-var points_high = ['0010500062', 'Allen Iverson', 36, 7, 2, 4, 0, 'Cavaliers', 'H', '2005', 'https://www.basketball-reference.com/boxscores/2005010200PHI.html'];
-var date = 'October 20th';
+var blocks_high = ['0027600008', 'Caldwell Jones', 6, 0, 3, 1, 2, 'Spurs', 'H', '1976', 'https://www.basketball-reference.com/boxscores/1976010220PHI.html', ['0027600008', 'Julius Erving', 17, 0, 6, 0, 2, 'Spurs', 'H', '1976', 'https://www.basketball-reference.com/boxscores/1976010220PHI.html'], ['0010800098', 'Marreese Speights', 18, 0, 7, 0, 2, 'Nets', 'A', '2008', 'https://www.basketball-reference.com/boxscores/2008010220BKN.html'], ['0011200092', 'Spencer Hawes', 9, 3, 3, 0, 2, 'Knicks', 'H', '2012', 'https://www.basketball-reference.com/boxscores/2012010220PHI.html']];
+var steals_high = ['0027600008', 'Doug Collins', 30, 9, 3, 4, 0, 'Spurs', 'H', '1976', 'https://www.basketball-reference.com/boxscores/1976010220PHI.html'];
+var rebounds_high = ['0026600018', 'Wilt Chamberlain', 20, 6, 19, 0, 0, 'Wizards', 'A', '1966', 'https://www.basketball-reference.com/boxscores/1966010220WAS.html'];
+var assists_high = ['0026000003', 'Larry Costello', 10, 11, 4, 0, 0, 'Warriors', 'H', '1960', 'https://www.basketball-reference.com/boxscores/1960010220PHI.html'];
+var points_high = ['0027600008', 'Doug Collins', 30, 9, 3, 4, 0, 'Spurs', 'H', '1976', 'https://www.basketball-reference.com/boxscores/1976010220PHI.html'];
+var date = 'October 22nd';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
