@@ -1,9 +1,9 @@
-var blocks_high = ['0011400109', 'Nerlens Noel', 8, 1, 8, 5, 5, 'Pistons', 'A', '2014', 'https://www.basketball-reference.com/boxscores/2014010230DET.html'];
-var steals_high = ['0011300095', 'Michael Carter-Williams', 15, 3, 9, 5, 0, 'Timberwolves', 'H', '2013', 'https://www.basketball-reference.com/boxscores/2013010230PHI.html', ['0011400109', 'Nerlens Noel', 8, 1, 8, 5, 5, 'Pistons', 'A', '2014', 'https://www.basketball-reference.com/boxscores/2014010230DET.html']];
-var rebounds_high = ['0026500015', 'Wilt Chamberlain', 53, 2, 21, 0, 0, 'Pistons', 'H', '1965', 'https://www.basketball-reference.com/boxscores/1965010230PHI.html'];
-var assists_high = ['0026500015', 'Hal Greer', 29, 14, 9, 0, 0, 'Pistons', 'H', '1965', 'https://www.basketball-reference.com/boxscores/1965010230PHI.html'];
-var points_high = ['0026500015', 'Wilt Chamberlain', 53, 2, 21, 0, 0, 'Pistons', 'H', '1965', 'https://www.basketball-reference.com/boxscores/1965010230PHI.html'];
-var date = 'October 23rd';
+var blocks_high = ['0027900073', 'Bobby Jones', 20, 2, 2, 3, 4, 'Pacers', 'H', '1979', 'https://www.basketball-reference.com/boxscores/1979010240PHI.html'];
+var steals_high = ['0010700101', 'Andre Iguodala', 12, 3, 3, 6, 0, 'Knicks', 'A', '2007', 'https://www.basketball-reference.com/boxscores/2007010240NYK.html'];
+var rebounds_high = ['0026700028', 'Wilt Chamberlain', 11, 5, 27, 0, 0, 'Pistons', 'H', '1967', 'https://www.basketball-reference.com/boxscores/1967010240PHI.html'];
+var assists_high = ['0027900073', 'Maurice Cheeks', 7, 11, 4, 0, 0, 'Pacers', 'H', '1979', 'https://www.basketball-reference.com/boxscores/1979010240PHI.html', ['0021800059', 'Ben Simmons', 14, 11, 13, 1, 0, 'Bucks', 'A', '2018', 'https://www.basketball-reference.com/boxscores/2018010240MIL.html']];
+var points_high = ['0026700028', 'Hal Greer', 38, 4, 0, 0, 0, 'Pistons', 'H', '1967', 'https://www.basketball-reference.com/boxscores/1967010240PHI.html', ['0027300053', 'Steve Mix', 38, 1, 11, 3, 0, 'Trail Blazers', 'H', '1973', 'https://www.basketball-reference.com/boxscores/1973010240PHI.html', ['0027900073', 'Bobby Jones', 20, 2, 2, 3, 4, 'Pacers', 'H', '1979', 'https://www.basketball-reference.com/boxscores/1979010240PHI.html']]];
+var date = 'October 24th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
