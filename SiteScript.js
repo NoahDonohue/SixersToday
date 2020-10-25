@@ -1,9 +1,9 @@
-var blocks_high = ['0027900073', 'Bobby Jones', 20, 2, 2, 3, 4, 'Pacers', 'H', '1979', 'https://www.basketball-reference.com/boxscores/1979010240PHI.html'];
-var steals_high = ['0010700101', 'Andre Iguodala', 12, 3, 3, 6, 0, 'Knicks', 'A', '2007', 'https://www.basketball-reference.com/boxscores/2007010240NYK.html'];
-var rebounds_high = ['0026700028', 'Wilt Chamberlain', 11, 5, 27, 0, 0, 'Pistons', 'H', '1967', 'https://www.basketball-reference.com/boxscores/1967010240PHI.html'];
-var assists_high = ['0027900073', 'Maurice Cheeks', 7, 11, 4, 0, 0, 'Pacers', 'H', '1979', 'https://www.basketball-reference.com/boxscores/1979010240PHI.html', ['0021800059', 'Ben Simmons', 14, 11, 13, 1, 0, 'Bucks', 'A', '2018', 'https://www.basketball-reference.com/boxscores/2018010240MIL.html']];
-var points_high = ['0026700028', 'Hal Greer', 38, 4, 0, 0, 0, 'Pistons', 'H', '1967', 'https://www.basketball-reference.com/boxscores/1967010240PHI.html', ['0027300053', 'Steve Mix', 38, 1, 11, 3, 0, 'Trail Blazers', 'H', '1973', 'https://www.basketball-reference.com/boxscores/1973010240PHI.html', ['0027900073', 'Bobby Jones', 20, 2, 2, 3, 4, 'Pacers', 'H', '1979', 'https://www.basketball-reference.com/boxscores/1979010240PHI.html']]];
-var date = 'October 24th';
+var blocks_high = ['0028000082', 'Darryl Dawkins', 21, 1, 12, 0, 4, 'Hawks', 'A', '1980', 'https://www.basketball-reference.com/boxscores/1980010250ATL.html', ['0010500092', 'Steven Hunter', 4, 0, 5, 0, 4, 'Knicks', 'H', '2005', 'https://www.basketball-reference.com/boxscores/2005010250PHI.html']];
+var steals_high = ['0021700057', 'T.J. McConnell', 6, 9, 5, 6, 0, 'Rockets', 'H', '2017', 'https://www.basketball-reference.com/boxscores/2017010250PHI.html'];
+var rebounds_high = ['0026700030', 'Wilt Chamberlain', 19, 6, 26, 0, 0, 'Knicks', 'H', '1967', 'https://www.basketball-reference.com/boxscores/1967010250PHI.html'];
+var assists_high = ['0010600103', 'Allen Iverson', 12, 12, 5, 3, 0, 'Nets', 'H', '2006', 'https://www.basketball-reference.com/boxscores/2006010250PHI.html'];
+var points_high = ['0027200047', 'Fred Carter', 39, 2, 6, 0, 0, 'Cavaliers', 'H', '1972', 'https://www.basketball-reference.com/boxscores/1972010250PHI.html'];
+var date = 'October 25th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
