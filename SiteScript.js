@@ -1,9 +1,9 @@
-var blocks_high = ['0028000082', 'Darryl Dawkins', 21, 1, 12, 0, 4, 'Hawks', 'A', '1980', 'https://www.basketball-reference.com/boxscores/1980010250ATL.html', ['0010500092', 'Steven Hunter', 4, 0, 5, 0, 4, 'Knicks', 'H', '2005', 'https://www.basketball-reference.com/boxscores/2005010250PHI.html']];
-var steals_high = ['0021700057', 'T.J. McConnell', 6, 9, 5, 6, 0, 'Rockets', 'H', '2017', 'https://www.basketball-reference.com/boxscores/2017010250PHI.html'];
-var rebounds_high = ['0026700030', 'Wilt Chamberlain', 19, 6, 26, 0, 0, 'Knicks', 'H', '1967', 'https://www.basketball-reference.com/boxscores/1967010250PHI.html'];
-var assists_high = ['0010600103', 'Allen Iverson', 12, 12, 5, 3, 0, 'Nets', 'H', '2006', 'https://www.basketball-reference.com/boxscores/2006010250PHI.html'];
-var points_high = ['0027200047', 'Fred Carter', 39, 2, 6, 0, 0, 'Cavaliers', 'H', '1972', 'https://www.basketball-reference.com/boxscores/1972010250PHI.html'];
-var date = 'October 25th';
+var blocks_high = ['0028400002', 'Bobby Jones', 5, 0, 4, 0, 4, 'Cavaliers', 'H', '1984', 'https://www.basketball-reference.com/boxscores/1984010260PHI.html'];
+var steals_high = ['0021900027', 'Ben Simmons', 13, 10, 4, 7, 0, 'Pistons', 'A', '2019', 'https://www.basketball-reference.com/boxscores/2019010260DET.html'];
+var rebounds_high = ['0028400002', 'Moses Malone', 26, 0, 19, 0, 2, 'Cavaliers', 'H', '1984', 'https://www.basketball-reference.com/boxscores/1984010260PHI.html'];
+var assists_high = ['0027900079', 'Henry Bibby', 7, 10, 2, 0, 0, 'Knicks', 'H', '1979', 'https://www.basketball-reference.com/boxscores/1979010260PHI.html', ['0028500012', 'Maurice Cheeks', 4, 10, 3, 3, 1, 'Knicks', 'A', '1985', 'https://www.basketball-reference.com/boxscores/1985010260NYK.html'], ['0021900027', 'Ben Simmons', 13, 10, 4, 7, 0, 'Pistons', 'A', '2019', 'https://www.basketball-reference.com/boxscores/2019010260DET.html']];
+var points_high = ['0027600027', 'George McGinnis', 37, 3, 11, 0, 0, 'Jazz', 'A', '1976', 'https://www.basketball-reference.com/boxscores/1976010260UTA.html'];
+var date = 'October 26th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
