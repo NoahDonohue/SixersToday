@@ -1,9 +1,9 @@
-var blocks_high = ['0027900091', 'Bobby Jones', 11, 1, 4, 1, 4, 'Cavaliers', 'A', '1979', 'https://www.basketball-reference.com/boxscores/1979010270CLE.html', ['0021800078', 'Robert Covington', 18, 0, 10, 2, 4, 'Hornets', 'H', '2018', 'https://www.basketball-reference.com/boxscores/2018010270PHI.html']];
-var steals_high = ['0027500016', 'George McGinnis', 19, 7, 16, 4, 2, 'Lakers', 'H', '1975', 'https://www.basketball-reference.com/boxscores/1975010270PHI.html', ['0027900091', 'Julius Erving', 18, 6, 5, 4, 2, 'Cavaliers', 'A', '1979', 'https://www.basketball-reference.com/boxscores/1979010270CLE.html'], ['0028400012', 'Andrew Toney', 28, 5, 3, 4, 0, 'Hawks', 'A', '1984', 'https://www.basketball-reference.com/boxscores/1984010270ATL.html']];
-var rebounds_high = ['0028400012', 'Moses Malone', 19, 1, 20, 0, 1, 'Hawks', 'A', '1984', 'https://www.basketball-reference.com/boxscores/1984010270ATL.html'];
-var assists_high = ['0025600002', 'Paul Seymour', 13, 9, 6, 0, 0, 'Warriors', 'H', '1956', 'https://www.basketball-reference.com/boxscores/1956010270PHI.html', ['0026700035', 'Wilt Chamberlain', 15, 9, 18, 0, 0, 'Thunder', 'H', '1967', 'https://www.basketball-reference.com/boxscores/1967010270PHI.html'], ['0027600032', 'Julius Erving', 27, 9, 13, 0, 0, 'Rockets', 'A', '1976', 'https://www.basketball-reference.com/boxscores/1976010270HOU.html']];
-var points_high = ['0025600002', 'Dolph Schayes', 33, 5, 17, 0, 0, 'Warriors', 'H', '1956', 'https://www.basketball-reference.com/boxscores/1956010270PHI.html', ['0025600002', 'Johnny Kerr', 8, 4, 17, 0, 0, 'Warriors', 'H', '1956', 'https://www.basketball-reference.com/boxscores/1956010270PHI.html']];
-var date = 'October 27th';
+var blocks_high = ['0027700049', 'Darryl Dawkins', 13, 3, 12, 2, 6, 'Trail Blazers', 'A', '1977', 'https://www.basketball-reference.com/boxscores/1977010280POR.html'];
+var steals_high = ['0020300001', 'Allen Iverson', 26, 11, 5, 5, 0, 'Heat', 'H', '2003', 'https://www.basketball-reference.com/boxscores/2003010280PHI.html'];
+var rebounds_high = ['0026700041', 'Wilt Chamberlain', 16, 9, 27, 0, 0, 'Celtics', 'A', '1967', 'https://www.basketball-reference.com/boxscores/1967010280BOS.html'];
+var assists_high = ['0020300001', 'Allen Iverson', 26, 11, 5, 5, 0, 'Heat', 'H', '2003', 'https://www.basketball-reference.com/boxscores/2003010280PHI.html'];
+var points_high = ['0021900043', 'Joel Embiid', 36, 5, 13, 3, 1, 'Hawks', 'A', '2019', 'https://www.basketball-reference.com/boxscores/2019010280ATL.html'];
+var date = 'October 28th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
