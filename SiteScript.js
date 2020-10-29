@@ -1,9 +1,9 @@
-var blocks_high = ['0027700049', 'Darryl Dawkins', 13, 3, 12, 2, 6, 'Trail Blazers', 'A', '1977', 'https://www.basketball-reference.com/boxscores/1977010280POR.html'];
-var steals_high = ['0020300001', 'Allen Iverson', 26, 11, 5, 5, 0, 'Heat', 'H', '2003', 'https://www.basketball-reference.com/boxscores/2003010280PHI.html'];
-var rebounds_high = ['0026700041', 'Wilt Chamberlain', 16, 9, 27, 0, 0, 'Celtics', 'A', '1967', 'https://www.basketball-reference.com/boxscores/1967010280BOS.html'];
-var assists_high = ['0020300001', 'Allen Iverson', 26, 11, 5, 5, 0, 'Heat', 'H', '2003', 'https://www.basketball-reference.com/boxscores/2003010280PHI.html'];
-var points_high = ['0021900043', 'Joel Embiid', 36, 5, 13, 3, 1, 'Hawks', 'A', '2019', 'https://www.basketball-reference.com/boxscores/2019010280ATL.html'];
-var date = 'October 28th';
+var blocks_high = ['0028000104', 'Caldwell Jones', 7, 0, 11, 0, 3, 'Bulls', 'H', '1980', 'https://www.basketball-reference.com/boxscores/1980010290PHI.html', ['0028000104', 'Darryl Dawkins', 20, 5, 8, 0, 3, 'Bulls', 'H', '1980', 'https://www.basketball-reference.com/boxscores/1980010290PHI.html'], ['0028200008', 'Bobby Jones', 4, 1, 5, 0, 3, 'Knicks', 'A', '1982', 'https://www.basketball-reference.com/boxscores/1982010290NYK.html'], ['0028500028', 'Charles Barkley', 21, 5, 12, 2, 3, 'Bucks', 'A', '1985', 'https://www.basketball-reference.com/boxscores/1985010290MIL.html'], ['0020800005', 'Willie Green', 6, 1, 4, 1, 3, 'Raptors', 'H', '2008', 'https://www.basketball-reference.com/boxscores/2008010290PHI.html'], ['0021400005', 'Nerlens Noel', 6, 0, 10, 0, 3, 'Pacers', 'A', '2014', 'https://www.basketball-reference.com/boxscores/2014010290IND.html']];
+var steals_high = ['0028300017', 'Moses Malone', 35, 2, 21, 4, 2, 'Pacers', 'A', '1983', 'https://www.basketball-reference.com/boxscores/1983010290IND.html', ['0020200001', 'Aaron McKie', 19, 5, 6, 4, 0, 'Magic', 'A', '2002', 'https://www.basketball-reference.com/boxscores/2002010290ORL.html'], ['0021400005', 'Hollis Thompson', 5, 2, 3, 4, 0, 'Pacers', 'A', '2014', 'https://www.basketball-reference.com/boxscores/2014010290IND.html']];
+var rebounds_high = ['0026600033', 'Wilt Chamberlain', 13, 9, 31, 0, 0, 'Celtics', 'H', '1966', 'https://www.basketball-reference.com/boxscores/1966010290PHI.html'];
+var assists_high = ['0021000021', 'Andre Iguodala', 27, 10, 6, 2, 1, 'Hawks', 'H', '2010', 'https://www.basketball-reference.com/boxscores/2010010290PHI.html'];
+var points_high = ['0028300017', 'Moses Malone', 35, 2, 21, 4, 2, 'Pacers', 'A', '1983', 'https://www.basketball-reference.com/boxscores/1983010290IND.html', ['0020200001', 'Aaron McKie', 19, 5, 6, 4, 0, 'Magic', 'A', '2002', 'https://www.basketball-reference.com/boxscores/2002010290ORL.html'], ['0021400005', 'Hollis Thompson', 5, 2, 3, 4, 0, 'Pacers', 'A', '2014', 'https://www.basketball-reference.com/boxscores/2014010290IND.html']];
+var date = 'October 29th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
