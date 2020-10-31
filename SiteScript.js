@@ -1,9 +1,9 @@
-var blocks_high = ['0028200018', 'Moses Malone', 13, 0, 15, 0, 7, 'Nets', 'H', '1982', 'https://www.basketball-reference.com/boxscores/1982010300PHI.html'];
-var steals_high = ['0021300005', 'Michael Carter-Williams', 22, 12, 7, 9, 0, 'Heat', 'H', '2013', 'https://www.basketball-reference.com/boxscores/2013010300PHI.html'];
-var rebounds_high = ['0026500026', 'Wilt Chamberlain', 39, 10, 28, 0, 0, 'Kings', 'H', '1965', 'https://www.basketball-reference.com/boxscores/1965010300PHI.html'];
-var assists_high = ['0028200018', 'Maurice Cheeks', 16, 21, 3, 0, 0, 'Nets', 'H', '1982', 'https://www.basketball-reference.com/boxscores/1982010300PHI.html'];
-var points_high = ['0026300024', 'Hal Greer', 39, 6, 12, 0, 0, 'Wizards', 'A', '1963', 'https://www.basketball-reference.com/boxscores/1963010300WAS.html', ['0026500026', 'Wilt Chamberlain', 39, 10, 28, 0, 0, 'Kings', 'H', '1965', 'https://www.basketball-reference.com/boxscores/1965010300PHI.html']];
-var date = 'October 30th';
+var blocks_high = ['0020700004', 'Samuel Dalembert', 4, 2, 5, 0, 6, 'Raptors', 'A', '2007', 'https://www.basketball-reference.com/boxscores/2007010310TOR.html'];
+var steals_high = ['0020000001', 'Toni Kukoc', 23, 3, 4, 4, 0, 'Knicks', 'A', '2000', 'https://www.basketball-reference.com/boxscores/2000010310NYK.html', ['0021200005', 'Jason Richardson', 10, 2, 4, 4, 3, 'Nuggets', 'H', '2012', 'https://www.basketball-reference.com/boxscores/2012010310PHI.html']];
+var rebounds_high = ['0025900012', 'Johnny Kerr', 15, 0, 23, 0, 0, 'Lakers', 'H', '1959', 'https://www.basketball-reference.com/boxscores/1959010310PHI.html'];
+var assists_high = ['0026900045', 'Archie Clark', 17, 11, 3, 0, 0, 'Bucks', 'H', '1969', 'https://www.basketball-reference.com/boxscores/1969010310PHI.html', ['0021200005', 'Jrue Holiday', 14, 11, 6, 2, 0, 'Nuggets', 'H', '2012', 'https://www.basketball-reference.com/boxscores/2012010310PHI.html']];
+var points_high = ['0020900034', 'Andre Iguodala', 32, 8, 11, 1, 0, 'Knicks', 'A', '2009', 'https://www.basketball-reference.com/boxscores/2009010310NYK.html'];
+var date = 'October 31st';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
