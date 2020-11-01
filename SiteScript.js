@@ -1,9 +1,9 @@
-var blocks_high = ['0020700004', 'Samuel Dalembert', 4, 2, 5, 0, 6, 'Raptors', 'A', '2007', 'https://www.basketball-reference.com/boxscores/2007010310TOR.html'];
-var steals_high = ['0020000001', 'Toni Kukoc', 23, 3, 4, 4, 0, 'Knicks', 'A', '2000', 'https://www.basketball-reference.com/boxscores/2000010310NYK.html', ['0021200005', 'Jason Richardson', 10, 2, 4, 4, 3, 'Nuggets', 'H', '2012', 'https://www.basketball-reference.com/boxscores/2012010310PHI.html']];
-var rebounds_high = ['0025900012', 'Johnny Kerr', 15, 0, 23, 0, 0, 'Lakers', 'H', '1959', 'https://www.basketball-reference.com/boxscores/1959010310PHI.html'];
-var assists_high = ['0026900045', 'Archie Clark', 17, 11, 3, 0, 0, 'Bucks', 'H', '1969', 'https://www.basketball-reference.com/boxscores/1969010310PHI.html', ['0021200005', 'Jrue Holiday', 14, 11, 6, 2, 0, 'Nuggets', 'H', '2012', 'https://www.basketball-reference.com/boxscores/2012010310PHI.html']];
-var points_high = ['0020900034', 'Andre Iguodala', 32, 8, 11, 1, 0, 'Knicks', 'A', '2009', 'https://www.basketball-reference.com/boxscores/2009010310NYK.html'];
-var date = 'October 31st';
+var blocks_high = ['0028300025', 'Clemon Johnson', 5, 0, 7, 0, 5, 'Bulls', 'H', '1983', 'https://www.basketball-reference.com/boxscores/1983011010PHI.html', ['0020000015', 'Theo Ratliff', 8, 0, 5, 0, 5, 'Raptors', 'H', '2000', 'https://www.basketball-reference.com/boxscores/2000011010PHI.html']];
+var steals_high = ['0028500044', 'Charles Barkley', 20, 5, 8, 7, 3, 'Nets', 'A', '1985', 'https://www.basketball-reference.com/boxscores/1985011010BKN.html'];
+var rebounds_high = ['0026700051', 'Wilt Chamberlain', 19, 13, 22, 0, 0, 'Wizards', 'H', '1967', 'https://www.basketball-reference.com/boxscores/1967011010PHI.html'];
+var assists_high = ['0026700051', 'Wilt Chamberlain', 19, 13, 22, 0, 0, 'Wizards', 'H', '1967', 'https://www.basketball-reference.com/boxscores/1967011010PHI.html'];
+var points_high = ['0028000127', 'Julius Erving', 45, 4, 9, 3, 4, 'Celtics', 'H', '1980', 'https://www.basketball-reference.com/boxscores/1980011010PHI.html'];
+var date = 'November 1st';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
