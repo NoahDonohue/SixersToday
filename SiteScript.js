@@ -1,9 +1,9 @@
-var blocks_high = ['0028300025', 'Clemon Johnson', 5, 0, 7, 0, 5, 'Bulls', 'H', '1983', 'https://www.basketball-reference.com/boxscores/1983011010PHI.html', ['0020000015', 'Theo Ratliff', 8, 0, 5, 0, 5, 'Raptors', 'H', '2000', 'https://www.basketball-reference.com/boxscores/2000011010PHI.html']];
-var steals_high = ['0028500044', 'Charles Barkley', 20, 5, 8, 7, 3, 'Nets', 'A', '1985', 'https://www.basketball-reference.com/boxscores/1985011010BKN.html'];
-var rebounds_high = ['0026700051', 'Wilt Chamberlain', 19, 13, 22, 0, 0, 'Wizards', 'H', '1967', 'https://www.basketball-reference.com/boxscores/1967011010PHI.html'];
-var assists_high = ['0026700051', 'Wilt Chamberlain', 19, 13, 22, 0, 0, 'Wizards', 'H', '1967', 'https://www.basketball-reference.com/boxscores/1967011010PHI.html'];
-var points_high = ['0028000127', 'Julius Erving', 45, 4, 9, 3, 4, 'Celtics', 'H', '1980', 'https://www.basketball-reference.com/boxscores/1980011010PHI.html'];
-var date = 'November 1st';
+var blocks_high = ['0027900114', 'Darryl Dawkins', 15, 1, 14, 0, 6, 'Hawks', 'H', '1979', 'https://www.basketball-reference.com/boxscores/1979011020PHI.html'];
+var steals_high = ['0028400041', 'Maurice Cheeks', 18, 12, 4, 6, 1, 'Mavericks', 'H', '1984', 'https://www.basketball-reference.com/boxscores/1984011020PHI.html'];
+var rebounds_high = ['0025200013', 'Dolph Schayes', 24, 0, 21, 0, 0, 'Warriors', 'H', '1952', 'https://www.basketball-reference.com/boxscores/1952011020PHI.html'];
+var assists_high = ['0021000048', 'Jrue Holiday', 14, 13, 3, 1, 0, 'Wizards', 'A', '2010', 'https://www.basketball-reference.com/boxscores/2010011020WAS.html'];
+var points_high = ['0029000009', 'Charles Barkley', 37, 5, 10, 0, 0, 'Bulls', 'A', '1990', 'https://www.basketball-reference.com/boxscores/1990011020CHI.html'];
+var date = 'November 2nd';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
