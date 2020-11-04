@@ -1,9 +1,9 @@
-var blocks_high = ['0027900114', 'Darryl Dawkins', 15, 1, 14, 0, 6, 'Hawks', 'H', '1979', 'https://www.basketball-reference.com/boxscores/1979011020PHI.html'];
-var steals_high = ['0028400041', 'Maurice Cheeks', 18, 12, 4, 6, 1, 'Mavericks', 'H', '1984', 'https://www.basketball-reference.com/boxscores/1984011020PHI.html'];
-var rebounds_high = ['0025200013', 'Dolph Schayes', 24, 0, 21, 0, 0, 'Warriors', 'H', '1952', 'https://www.basketball-reference.com/boxscores/1952011020PHI.html'];
-var assists_high = ['0021000048', 'Jrue Holiday', 14, 13, 3, 1, 0, 'Wizards', 'A', '2010', 'https://www.basketball-reference.com/boxscores/2010011020WAS.html'];
-var points_high = ['0029000009', 'Charles Barkley', 37, 5, 10, 0, 0, 'Bulls', 'A', '1990', 'https://www.basketball-reference.com/boxscores/1990011020CHI.html'];
-var date = 'November 2nd';
+var blocks_high = ['0020000035', 'Theo Ratliff', 10, 2, 7, 0, 5, 'Heat', 'A', '2000', 'https://www.basketball-reference.com/boxscores/2000011040MIA.html'];
+var steals_high = ['0021900095', 'Ben Simmons', 6, 6, 5, 7, 0, 'Suns', 'A', '2019', 'https://www.basketball-reference.com/boxscores/2019011040PHX.html'];
+var rebounds_high = ['0026600042', 'Wilt Chamberlain', 30, 13, 26, 0, 0, 'Warriors', 'H', '1966', 'https://www.basketball-reference.com/boxscores/1966011040PHI.html', ['0026700059', 'Wilt Chamberlain', 1, 13, 18, 0, 0, 'Warriors', 'H', '1967', 'https://www.basketball-reference.com/boxscores/1967011040PHI.html']];
+var assists_high = ['0028600025', 'Charles Barkley', 34, 14, 10, 2, 4, 'Pacers', 'A', '1986', 'https://www.basketball-reference.com/boxscores/1986011040IND.html', ['0028600025', 'Roy Hinson', 15, 0, 9, 0, 4, 'Pacers', 'A', '1986', 'https://www.basketball-reference.com/boxscores/1986011040IND.html'], ['0028900017', 'Charles Barkley', 27, 2, 14, 1, 4, 'Bucks', 'H', '1989', 'https://www.basketball-reference.com/boxscores/1989011040PHI.html'], ['0029400010', 'Shawn Bradley', 0, 0, 2, 0, 4, 'Bucks', 'H', '1994', 'https://www.basketball-reference.com/boxscores/1994011040PHI.html']];
+var points_high = ['0026500035', 'Hal Greer', 35, 1, 5, 0, 0, 'Warriors', 'A', '1965', 'https://www.basketball-reference.com/boxscores/1965011040GSW.html'];
+var date = 'November 4th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
