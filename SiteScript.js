@@ -1,9 +1,9 @@
-var blocks_high = ['0020000035', 'Theo Ratliff', 10, 2, 7, 0, 5, 'Heat', 'A', '2000', 'https://www.basketball-reference.com/boxscores/2000011040MIA.html'];
-var steals_high = ['0021900095', 'Ben Simmons', 6, 6, 5, 7, 0, 'Suns', 'A', '2019', 'https://www.basketball-reference.com/boxscores/2019011040PHX.html'];
-var rebounds_high = ['0026600042', 'Wilt Chamberlain', 30, 13, 26, 0, 0, 'Warriors', 'H', '1966', 'https://www.basketball-reference.com/boxscores/1966011040PHI.html', ['0026700059', 'Wilt Chamberlain', 1, 13, 18, 0, 0, 'Warriors', 'H', '1967', 'https://www.basketball-reference.com/boxscores/1967011040PHI.html']];
-var assists_high = ['0028600025', 'Charles Barkley', 34, 14, 10, 2, 4, 'Pacers', 'A', '1986', 'https://www.basketball-reference.com/boxscores/1986011040IND.html', ['0028600025', 'Roy Hinson', 15, 0, 9, 0, 4, 'Pacers', 'A', '1986', 'https://www.basketball-reference.com/boxscores/1986011040IND.html'], ['0028900017', 'Charles Barkley', 27, 2, 14, 1, 4, 'Bucks', 'H', '1989', 'https://www.basketball-reference.com/boxscores/1989011040PHI.html'], ['0029400010', 'Shawn Bradley', 0, 0, 2, 0, 4, 'Bucks', 'H', '1994', 'https://www.basketball-reference.com/boxscores/1994011040PHI.html']];
-var points_high = ['0026500035', 'Hal Greer', 35, 1, 5, 0, 0, 'Warriors', 'A', '1965', 'https://www.basketball-reference.com/boxscores/1965011040GSW.html'];
-var date = 'November 4th';
+var blocks_high = ['0027900136', 'Bobby Jones', 8, 1, 5, 1, 4, 'Bucks', 'A', '1979', 'https://www.basketball-reference.com/boxscores/1979011060MIL.html', ['0027900136', 'Caldwell Jones', 19, 0, 15, 1, 1, 'Bucks', 'A', '1979', 'https://www.basketball-reference.com/boxscores/1979011060MIL.html'], ['0027900136', 'Henry Bibby', 10, 6, 2, 1, 0, 'Bucks', 'A', '1979', 'https://www.basketball-reference.com/boxscores/1979011060MIL.html']];
+var steals_high = ['0027900136', 'Julius Erving', 34, 5, 9, 5, 3, 'Bucks', 'A', '1979', 'https://www.basketball-reference.com/boxscores/1979011060MIL.html', ['0028700003', 'Maurice Cheeks', 14, 10, 8, 5, 0, 'Pacers', 'H', '1987', 'https://www.basketball-reference.com/boxscores/1987011060PHI.html'], ['0020200060', 'Todd MacCulloch', 15, 0, 8, 5, 1, 'Clippers', 'H', '2002', 'https://www.basketball-reference.com/boxscores/2002011060PHI.html'], ['0021500078', 'Nerlens Noel', 18, 2, 12, 5, 2, 'Cavaliers', 'A', '2015', 'https://www.basketball-reference.com/boxscores/2015011060CLE.html']];
+var rebounds_high = ['0026500044', 'Wilt Chamberlain', 30, 1, 24, 0, 0, 'Celtics', 'A', '1965', 'https://www.basketball-reference.com/boxscores/1965011060BOS.html'];
+var assists_high = ['0028200055', 'Maurice Cheeks', 11, 15, 4, 2, 0, 'Celtics', 'H', '1982', 'https://www.basketball-reference.com/boxscores/1982011060PHI.html'];
+var points_high = ['0027000093', 'Billy Cunningham', 38, 4, 16, 0, 0, 'Hawks', 'H', '1970', 'https://www.basketball-reference.com/boxscores/1970011060PHI.html'];
+var date = 'November 6th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
