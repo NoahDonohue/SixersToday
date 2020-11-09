@@ -1,9 +1,9 @@
-var blocks_high = ['0027900136', 'Bobby Jones', 8, 1, 5, 1, 4, 'Bucks', 'A', '1979', 'https://www.basketball-reference.com/boxscores/1979011060MIL.html', ['0027900136', 'Caldwell Jones', 19, 0, 15, 1, 1, 'Bucks', 'A', '1979', 'https://www.basketball-reference.com/boxscores/1979011060MIL.html'], ['0027900136', 'Henry Bibby', 10, 6, 2, 1, 0, 'Bucks', 'A', '1979', 'https://www.basketball-reference.com/boxscores/1979011060MIL.html']];
-var steals_high = ['0027900136', 'Julius Erving', 34, 5, 9, 5, 3, 'Bucks', 'A', '1979', 'https://www.basketball-reference.com/boxscores/1979011060MIL.html', ['0028700003', 'Maurice Cheeks', 14, 10, 8, 5, 0, 'Pacers', 'H', '1987', 'https://www.basketball-reference.com/boxscores/1987011060PHI.html'], ['0020200060', 'Todd MacCulloch', 15, 0, 8, 5, 1, 'Clippers', 'H', '2002', 'https://www.basketball-reference.com/boxscores/2002011060PHI.html'], ['0021500078', 'Nerlens Noel', 18, 2, 12, 5, 2, 'Cavaliers', 'A', '2015', 'https://www.basketball-reference.com/boxscores/2015011060CLE.html']];
-var rebounds_high = ['0026500044', 'Wilt Chamberlain', 30, 1, 24, 0, 0, 'Celtics', 'A', '1965', 'https://www.basketball-reference.com/boxscores/1965011060BOS.html'];
-var assists_high = ['0028200055', 'Maurice Cheeks', 11, 15, 4, 2, 0, 'Celtics', 'H', '1982', 'https://www.basketball-reference.com/boxscores/1982011060PHI.html'];
-var points_high = ['0027000093', 'Billy Cunningham', 38, 4, 16, 0, 0, 'Hawks', 'H', '1970', 'https://www.basketball-reference.com/boxscores/1970011060PHI.html'];
-var date = 'November 6th';
+var blocks_high = ['0028900038', 'Mike Gminski', 19, 1, 12, 1, 6, 'Heat', 'H', '1989', 'https://www.basketball-reference.com/boxscores/1989011080PHI.html', ['0021300076', 'Spencer Hawes', 10, 3, 7, 0, 6, 'Cavaliers', 'H', '2013', 'https://www.basketball-reference.com/boxscores/2013011080PHI.html']];
+var steals_high = ['0028900038', 'Charles Barkley', 29, 6, 7, 6, 0, 'Heat', 'H', '1989', 'https://www.basketball-reference.com/boxscores/1989011080PHI.html'];
+var rebounds_high = ['0025800023', 'Johnny Kerr', 24, 1, 30, 0, 0, 'Warriors', 'A', '1958', 'https://www.basketball-reference.com/boxscores/1958011080GSW.html'];
+var assists_high = ['0028800025', 'Maurice Cheeks', 12, 12, 1, 0, 3, 'Pistons', 'H', '1988', 'https://www.basketball-reference.com/boxscores/1988011080PHI.html'];
+var points_high = ['0026900071', 'Billy Cunningham', 46, 5, 22, 0, 0, 'Thunder', 'H', '1969', 'https://www.basketball-reference.com/boxscores/1969011080PHI.html'];
+var date = 'November 8th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
