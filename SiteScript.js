@@ -1,9 +1,9 @@
-var blocks_high = ['0028600108', 'Roy Hinson', 23, 2, 6, 1, 5, 'Knicks', 'H', '1986', 'https://www.basketball-reference.com/boxscores/1986011190PHI.html'];
-var steals_high = ['0027500107', 'Doug Collins', 19, 3, 2, 5, 0, 'Kings', 'H', '1975', 'https://www.basketball-reference.com/boxscores/1975011190PHI.html', ['0028000221', 'Maurice Cheeks', 10, 9, 3, 5, 0, 'Warriors', 'H', '1980', 'https://www.basketball-reference.com/boxscores/1980011190PHI.html'], ['0028200119', 'Maurice Cheeks', 19, 8, 4, 5, 0, 'Bucks', 'H', '1982', 'https://www.basketball-reference.com/boxscores/1982011190PHI.html'], ['0028300128', 'Julius Erving', 18, 3, 5, 5, 1, 'Celtics', 'H', '1983', 'https://www.basketball-reference.com/boxscores/1983011190PHI.html'], ['0028300128', 'Maurice Cheeks', 20, 5, 3, 5, 0, 'Celtics', 'H', '1983', 'https://www.basketball-reference.com/boxscores/1983011190PHI.html'], ['0028600108', 'Maurice Cheeks', 11, 7, 4, 5, 1, 'Knicks', 'H', '1986', 'https://www.basketball-reference.com/boxscores/1986011190PHI.html']];
-var rebounds_high = ['0026500069', 'Wilt Chamberlain', 36, 5, 25, 0, 0, 'Wizards', 'H', '1965', 'https://www.basketball-reference.com/boxscores/1965011190PHI.html'];
-var assists_high = ['0029300099', 'Jeff Hornacek', 23, 12, 0, 1, 0, 'Jazz', 'H', '1993', 'https://www.basketball-reference.com/boxscores/1993011190PHI.html', ['0020500132', 'Allen Iverson', 37, 12, 2, 3, 0, 'Cavaliers', 'H', '2005', 'https://www.basketball-reference.com/boxscores/2005011190PHI.html']];
-var points_high = ['0020200150', 'Allen Iverson', 38, 7, 6, 3, 0, 'Pelicans', 'A', '2002', 'https://www.basketball-reference.com/boxscores/2002011190NOP.html'];
-var date = 'November 19th';
+var blocks_high = ['0028300142', 'Bobby Jones', 10, 7, 2, 1, 6, 'Pistons', 'H', '1983', 'https://www.basketball-reference.com/boxscores/1983011220PHI.html'];
+var steals_high = ['0028300142', 'Maurice Cheeks', 12, 4, 3, 6, 2, 'Pistons', 'H', '1983', 'https://www.basketball-reference.com/boxscores/1983011220PHI.html', ['0029100148', 'Charles Barkley', 35, 2, 14, 6, 0, 'Hawks', 'H', '1991', 'https://www.basketball-reference.com/boxscores/1991011220PHI.html', ['0029900151', 'Allen Iverson', 35, 5, 6, 0, 0, 'Spurs', 'H', '1999', 'https://www.basketball-reference.com/boxscores/1999011220PHI.html']]];
+var rebounds_high = ['0026700111', 'Wilt Chamberlain', 12, 6, 23, 0, 0, 'Hawks', 'A', '1967', 'https://www.basketball-reference.com/boxscores/1967011220ATL.html'];
+var assists_high = ['0021900218', 'Ben Simmons', 10, 13, 10, 2, 1, 'Spurs', 'H', '2019', 'https://www.basketball-reference.com/boxscores/2019011220PHI.html'];
+var points_high = ['0029100148', 'Charles Barkley', 35, 2, 14, 6, 0, 'Hawks', 'H', '1991', 'https://www.basketball-reference.com/boxscores/1991011220PHI.html', ['0029900151', 'Allen Iverson', 35, 5, 6, 0, 0, 'Spurs', 'H', '1999', 'https://www.basketball-reference.com/boxscores/1999011220PHI.html']];
+var date = 'November 22nd';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
