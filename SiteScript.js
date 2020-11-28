@@ -1,9 +1,9 @@
-var blocks_high = ['0028300142', 'Bobby Jones', 10, 7, 2, 1, 6, 'Pistons', 'H', '1983', 'https://www.basketball-reference.com/boxscores/1983011220PHI.html'];
-var steals_high = ['0028300142', 'Maurice Cheeks', 12, 4, 3, 6, 2, 'Pistons', 'H', '1983', 'https://www.basketball-reference.com/boxscores/1983011220PHI.html', ['0029100148', 'Charles Barkley', 35, 2, 14, 6, 0, 'Hawks', 'H', '1991', 'https://www.basketball-reference.com/boxscores/1991011220PHI.html', ['0029900151', 'Allen Iverson', 35, 5, 6, 0, 0, 'Spurs', 'H', '1999', 'https://www.basketball-reference.com/boxscores/1999011220PHI.html']]];
-var rebounds_high = ['0026700111', 'Wilt Chamberlain', 12, 6, 23, 0, 0, 'Hawks', 'A', '1967', 'https://www.basketball-reference.com/boxscores/1967011220ATL.html'];
-var assists_high = ['0021900218', 'Ben Simmons', 10, 13, 10, 2, 1, 'Spurs', 'H', '2019', 'https://www.basketball-reference.com/boxscores/2019011220PHI.html'];
-var points_high = ['0029100148', 'Charles Barkley', 35, 2, 14, 6, 0, 'Hawks', 'H', '1991', 'https://www.basketball-reference.com/boxscores/1991011220PHI.html', ['0029900151', 'Allen Iverson', 35, 5, 6, 0, 0, 'Spurs', 'H', '1999', 'https://www.basketball-reference.com/boxscores/1999011220PHI.html']];
-var date = 'November 22nd';
+var blocks_high = ['0028600160', 'Charles Barkley', 31, 9, 21, 1, 7, 'Trail Blazers', 'H', '1986', 'https://www.basketball-reference.com/boxscores/1986011280PHI.html'];
+var steals_high = ['0028000269', 'Julius Erving', 21, 7, 9, 6, 0, 'Trail Blazers', 'H', '1980', 'https://www.basketball-reference.com/boxscores/1980011280PHI.html'];
+var rebounds_high = ['0028800148', 'Charles Barkley', 31, 6, 23, 1, 0, 'Lakers', 'H', '1988', 'https://www.basketball-reference.com/boxscores/1988011280PHI.html'];
+var assists_high = ['0027100187', 'Hal Greer', 19, 12, 4, 0, 0, 'Cavaliers', 'A', '1971', 'https://www.basketball-reference.com/boxscores/1971011280CLE.html', ['0028100163', 'Maurice Cheeks', 4, 12, 2, 0, 0, 'Pistons', 'H', '1981', 'https://www.basketball-reference.com/boxscores/1981011280PHI.html']];
+var points_high = ['0026300081', 'Lee Shaffer', 42, 1, 7, 0, 0, 'Kings', 'H', '1963', 'https://www.basketball-reference.com/boxscores/1963011280PHI.html'];
+var date = 'November 28th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
