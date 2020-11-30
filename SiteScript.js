@@ -1,9 +1,9 @@
-var blocks_high = ['0028600160', 'Charles Barkley', 31, 9, 21, 1, 7, 'Trail Blazers', 'H', '1986', 'https://www.basketball-reference.com/boxscores/1986011280PHI.html'];
-var steals_high = ['0028000269', 'Julius Erving', 21, 7, 9, 6, 0, 'Trail Blazers', 'H', '1980', 'https://www.basketball-reference.com/boxscores/1980011280PHI.html'];
-var rebounds_high = ['0028800148', 'Charles Barkley', 31, 6, 23, 1, 0, 'Lakers', 'H', '1988', 'https://www.basketball-reference.com/boxscores/1988011280PHI.html'];
-var assists_high = ['0027100187', 'Hal Greer', 19, 12, 4, 0, 0, 'Cavaliers', 'A', '1971', 'https://www.basketball-reference.com/boxscores/1971011280CLE.html', ['0028100163', 'Maurice Cheeks', 4, 12, 2, 0, 0, 'Pistons', 'H', '1981', 'https://www.basketball-reference.com/boxscores/1981011280PHI.html']];
-var points_high = ['0026300081', 'Lee Shaffer', 42, 1, 7, 0, 0, 'Kings', 'H', '1963', 'https://www.basketball-reference.com/boxscores/1963011280PHI.html'];
-var date = 'November 28th';
+var blocks_high = ['0020500210', 'Samuel Dalembert', 8, 0, 11, 0, 5, 'Celtics', 'A', '2005', 'https://www.basketball-reference.com/boxscores/2005011300BOS.html'];
+var steals_high = ['0028800159', 'Charles Barkley', 41, 5, 22, 6, 1, 'Trail Blazers', 'H', '1988', 'https://www.basketball-reference.com/boxscores/1988011300PHI.html', ['0029600210', 'Allen Iverson', 23, 9, 2, 6, 0, 'Grizzlies', 'H', '1996', 'https://www.basketball-reference.com/boxscores/1996011300PHI.html']];
+var rebounds_high = ['0026500098', 'Wilt Chamberlain', 41, 5, 33, 0, 0, 'Wizards', 'A', '1965', 'https://www.basketball-reference.com/boxscores/1965011300WAS.html'];
+var assists_high = ['0021200223', 'Jrue Holiday', 13, 15, 2, 0, 1, 'Hornets', 'A', '2012', 'https://www.basketball-reference.com/boxscores/2012011300CHA.html'];
+var points_high = ['0026300087', 'Hal Greer', 43, 5, 5, 0, 0, 'Knicks', 'A', '1963', 'https://www.basketball-reference.com/boxscores/1963011300NYK.html', ['0028700139', 'Charles Barkley', 43, 5, 14, 3, 0, 'Jazz', 'A', '1987', 'https://www.basketball-reference.com/boxscores/1987011300UTA.html']];
+var date = 'November 30th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
