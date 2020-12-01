@@ -1,9 +1,9 @@
-var blocks_high = ['0020500210', 'Samuel Dalembert', 8, 0, 11, 0, 5, 'Celtics', 'A', '2005', 'https://www.basketball-reference.com/boxscores/2005011300BOS.html'];
-var steals_high = ['0028800159', 'Charles Barkley', 41, 5, 22, 6, 1, 'Trail Blazers', 'H', '1988', 'https://www.basketball-reference.com/boxscores/1988011300PHI.html', ['0029600210', 'Allen Iverson', 23, 9, 2, 6, 0, 'Grizzlies', 'H', '1996', 'https://www.basketball-reference.com/boxscores/1996011300PHI.html']];
-var rebounds_high = ['0026500098', 'Wilt Chamberlain', 41, 5, 33, 0, 0, 'Wizards', 'A', '1965', 'https://www.basketball-reference.com/boxscores/1965011300WAS.html'];
-var assists_high = ['0021200223', 'Jrue Holiday', 13, 15, 2, 0, 1, 'Hornets', 'A', '2012', 'https://www.basketball-reference.com/boxscores/2012011300CHA.html'];
-var points_high = ['0026300087', 'Hal Greer', 43, 5, 5, 0, 0, 'Knicks', 'A', '1963', 'https://www.basketball-reference.com/boxscores/1963011300NYK.html', ['0028700139', 'Charles Barkley', 43, 5, 14, 3, 0, 'Jazz', 'A', '1987', 'https://www.basketball-reference.com/boxscores/1987011300UTA.html']];
-var date = 'November 30th';
+var blocks_high = ['0020100231', 'Dikembe Mutombo', 16, 0, 19, 0, 10, 'Bulls', 'A', '2001', 'https://www.basketball-reference.com/boxscores/2001012010CHI.html'];
+var steals_high = ['0027300203', 'Steve Mix', 24, 2, 14, 7, 0, 'Rockets', 'H', '1973', 'https://www.basketball-reference.com/boxscores/1973012010PHI.html'];
+var rebounds_high = ['0026700140', 'Wilt Chamberlain', 52, 2, 37, 0, 0, 'Thunder', 'H', '1967', 'https://www.basketball-reference.com/boxscores/1967012010PHI.html'];
+var assists_high = ['0027900277', 'Maurice Cheeks', 18, 15, 6, 3, 2, 'Cavaliers', 'H', '1979', 'https://www.basketball-reference.com/boxscores/1979012010PHI.html'];
+var points_high = ['0026700140', 'Wilt Chamberlain', 52, 2, 37, 0, 0, 'Thunder', 'H', '1967', 'https://www.basketball-reference.com/boxscores/1967012010PHI.html'];
+var date = 'December 1st';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
