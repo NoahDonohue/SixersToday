@@ -1,9 +1,9 @@
-var blocks_high = ['0020100231', 'Dikembe Mutombo', 16, 0, 19, 0, 10, 'Bulls', 'A', '2001', 'https://www.basketball-reference.com/boxscores/2001012010CHI.html'];
-var steals_high = ['0027300203', 'Steve Mix', 24, 2, 14, 7, 0, 'Rockets', 'H', '1973', 'https://www.basketball-reference.com/boxscores/1973012010PHI.html'];
-var rebounds_high = ['0026700140', 'Wilt Chamberlain', 52, 2, 37, 0, 0, 'Thunder', 'H', '1967', 'https://www.basketball-reference.com/boxscores/1967012010PHI.html'];
-var assists_high = ['0027900277', 'Maurice Cheeks', 18, 15, 6, 3, 2, 'Cavaliers', 'H', '1979', 'https://www.basketball-reference.com/boxscores/1979012010PHI.html'];
-var points_high = ['0026700140', 'Wilt Chamberlain', 52, 2, 37, 0, 0, 'Thunder', 'H', '1967', 'https://www.basketball-reference.com/boxscores/1967012010PHI.html'];
-var date = 'December 1st';
+var blocks_high = ['0029400284', 'Shawn Bradley', 9, 1, 13, 0, 5, 'Pistons', 'H', '1994', 'https://www.basketball-reference.com/boxscores/1994012170PHI.html'];
+var steals_high = ['0028000378', 'Lionel Hollins', 14, 5, 0, 5, 0, 'Cavaliers', 'H', '1980', 'https://www.basketball-reference.com/boxscores/1980012170PHI.html'];
+var rebounds_high = ['0026600153', 'Wilt Chamberlain', 28, 12, 27, 0, 0, 'Pistons', 'H', '1966', 'https://www.basketball-reference.com/boxscores/1966012170PHI.html'];
+var assists_high = ['0025500078', 'George King', 20, 13, 8, 0, 0, 'Celtics', 'A', '1955', 'https://www.basketball-reference.com/boxscores/1955012170BOS.html'];
+var points_high = ['0026700189', 'Wilt Chamberlain', 47, 4, 26, 0, 0, 'Thunder', 'A', '1967', 'https://www.basketball-reference.com/boxscores/1967012170OKC.html', ['0027100268', 'Billy Cunningham', 47, 9, 13, 0, 0, 'Trail Blazers', 'A', '1971', 'https://www.basketball-reference.com/boxscores/1971012170POR.html']];
+var date = 'December 17th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
