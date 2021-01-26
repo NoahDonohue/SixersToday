@@ -1,9 +1,9 @@
-var blocks_high = ['0029200329', 'Manute Bol', 2, 1, 15, 1, 5, 'Trail Blazers', 'A', '1992', 'https://www.basketball-reference.com/boxscores/1992012260POR.html', ['0020700408', 'Calvin Booth', 6, 2, 4, 1, 5, 'Heat', 'H', '2007', 'https://www.basketball-reference.com/boxscores/2007012260PHI.html'], ['0021200416', 'Spencer Hawes', 20, 1, 9, 3, 5, 'Grizzlies', 'A', '2012', 'https://www.basketball-reference.com/boxscores/2012012260MEM.html']];
-var steals_high = ['0029100354', 'Hersey Hawkins', 22, 3, 2, 6, 1, 'Pacers', 'A', '1991', 'https://www.basketball-reference.com/boxscores/1991012260IND.html'];
-var rebounds_high = ['0026600169', 'Wilt Chamberlain', 38, 10, 32, 0, 0, 'Kings', 'H', '1966', 'https://www.basketball-reference.com/boxscores/1966012260PHI.html', ['0026700216', 'Wilt Chamberlain', 20, 10, 26, 0, 0, 'Kings', 'H', '1967', 'https://www.basketball-reference.com/boxscores/1967012260PHI.html']];
-var assists_high = ['0020300414', 'Eric Snow', 14, 13, 2, 3, 0, 'Clippers', 'A', '2003', 'https://www.basketball-reference.com/boxscores/2003012260LAC.html'];
-var points_high = ['0026600169', 'Wilt Chamberlain', 38, 10, 32, 0, 0, 'Kings', 'H', '1966', 'https://www.basketball-reference.com/boxscores/1966012260PHI.html', ['0026700216', 'Wilt Chamberlain', 20, 10, 26, 0, 0, 'Kings', 'H', '1967', 'https://www.basketball-reference.com/boxscores/1967012260PHI.html']];
-var date = 'December 26th';
+var blocks_high = ['0028800481', 'Mike Gminski', 14, 0, 11, 1, 7, 'Bulls', 'H', '1989', 'https://www.basketball-reference.com/boxscores/198901250PHI.html', ['0029100553', 'Manute Bol', 2, 1, 7, 0, 7, 'Nets', 'H', '1992', 'https://www.basketball-reference.com/boxscores/199201250PHI.html']];
+var steals_high = ['0029000542', 'Hersey Hawkins', 38, 6, 8, 9, 1, 'Celtics', 'H', '1991', 'https://www.basketball-reference.com/boxscores/199101250PHI.html'];
+var rebounds_high = ['0026500221', 'Wilt Chamberlain', 53, 3, 31, 0, 0, 'Lakers', 'H', '1966', 'https://www.basketball-reference.com/boxscores/196601250PHI.html'];
+var assists_high = ['0026700303', 'Wilt Chamberlain', 14, 14, 11, 0, 0, 'Pistons', 'A', '1968', 'https://www.basketball-reference.com/boxscores/196801250DET.html'];
+var points_high = ['0026500221', 'Wilt Chamberlain', 53, 3, 31, 0, 0, 'Lakers', 'H', '1966', 'https://www.basketball-reference.com/boxscores/196601250PHI.html'];
+var date = 'January 25th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
