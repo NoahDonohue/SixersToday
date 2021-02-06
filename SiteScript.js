@@ -1,9 +1,9 @@
-var blocks_high = ['0028800481', 'Mike Gminski', 14, 0, 11, 1, 7, 'Bulls', 'H', '1989', 'https://www.basketball-reference.com/boxscores/198901250PHI.html', ['0029100553', 'Manute Bol', 2, 1, 7, 0, 7, 'Nets', 'H', '1992', 'https://www.basketball-reference.com/boxscores/199201250PHI.html']];
-var steals_high = ['0029000542', 'Hersey Hawkins', 38, 6, 8, 9, 1, 'Celtics', 'H', '1991', 'https://www.basketball-reference.com/boxscores/199101250PHI.html'];
-var rebounds_high = ['0026500221', 'Wilt Chamberlain', 53, 3, 31, 0, 0, 'Lakers', 'H', '1966', 'https://www.basketball-reference.com/boxscores/196601250PHI.html'];
-var assists_high = ['0026700303', 'Wilt Chamberlain', 14, 14, 11, 0, 0, 'Pistons', 'A', '1968', 'https://www.basketball-reference.com/boxscores/196801250DET.html'];
-var points_high = ['0026500221', 'Wilt Chamberlain', 53, 3, 31, 0, 0, 'Lakers', 'H', '1966', 'https://www.basketball-reference.com/boxscores/196601250PHI.html'];
-var date = 'January 25th';
+var blocks_high = ['0029000616', 'Manute Bol', 2, 1, 11, 1, 5, 'Wizards', 'H', '1991', 'https://www.basketball-reference.com/boxscores/199102060PHI.html'];
+var steals_high = ['0027500438', 'George McGinnis', 18, 4, 15, 4, 0, 'Cavaliers', 'H', '1976', 'https://www.basketball-reference.com/boxscores/197602060PHI.html', ['0028000646', 'Julius Erving', 31, 3, 7, 4, 3, 'Clippers', 'H', '1981', 'https://www.basketball-reference.com/boxscores/198102060PHI.html', ['0028400564', 'Julius Erving', 21, 1, 5, 1, 3, 'Wizards', 'H', '1985', 'https://www.basketball-reference.com/boxscores/198502060PHI.html']], ['0029900671', 'George Lynch', 6, 4, 3, 4, 0, 'Kings', 'H', '2000', 'https://www.basketball-reference.com/boxscores/200002060PHI.html'], ['0029900671', 'Eric Snow', 11, 13, 7, 4, 0, 'Kings', 'H', '2000', 'https://www.basketball-reference.com/boxscores/200002060PHI.html'], ['0020400700', 'Samuel Dalembert', 8, 0, 6, 4, 2, 'Clippers', 'H', '2005', 'https://www.basketball-reference.com/boxscores/200502060PHI.html'], ['0021500764', 'Nerlens Noel', 18, 2, 4, 4, 3, 'Nets', 'H', '2016', 'https://www.basketball-reference.com/boxscores/201602060PHI.html']];
+var rebounds_high = ['0025900218', 'Dolph Schayes', 39, 2, 24, 0, 0, 'Warriors', 'A', '1960', 'https://www.basketball-reference.com/boxscores/196002060GSW.html', ['0025900218', 'Johnny Kerr', 35, 3, 24, 0, 0, 'Warriors', 'A', '1960', 'https://www.basketball-reference.com/boxscores/196002060GSW.html'], ['0029000616', 'Hersey Hawkins', 39, 4, 4, 1, 1, 'Wizards', 'H', '1991', 'https://www.basketball-reference.com/boxscores/199102060PHI.html']];
+var assists_high = ['0025900218', 'Larry Costello', 16, 16, 11, 0, 0, 'Warriors', 'A', '1960', 'https://www.basketball-reference.com/boxscores/196002060GSW.html'];
+var points_high = ['0029900671', 'Allen Iverson', 50, 6, 9, 1, 0, 'Kings', 'H', '2000', 'https://www.basketball-reference.com/boxscores/200002060PHI.html'];
+var date = 'February 6th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
