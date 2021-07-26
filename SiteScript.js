@@ -1,9 +1,9 @@
-var blocks_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var steals_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var rebounds_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var assists_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var points_high = [0, 'No Games', 0, 0, 0, 0, 0, 'Nobody', 'H', '0000', 'https://www.basketball-reference.com'];
-var date = 'July 19th';
+var blocks_high = ['0011900118', 'Josh Richardson', 2, 2, 2, 3, 4, 'Thunder', 'A', '2020', 'https://www.basketball-reference.com/boxscores/202007260OKC.html'];
+var steals_high = ['0011900118', 'Ben Simmons', 3, 11, 9, 9, 1, 'Thunder', 'A', '2020', 'https://www.basketball-reference.com/boxscores/202007260OKC.html'];
+var rebounds_high = ['0011900118', 'Ben Simmons', 3, 11, 9, 9, 1, 'Thunder', 'A', '2020', 'https://www.basketball-reference.com/boxscores/202007260OKC.html'];
+var assists_high = ['0011900118', 'Ben Simmons', 3, 11, 9, 9, 1, 'Thunder', 'A', '2020', 'https://www.basketball-reference.com/boxscores/202007260OKC.html'];
+var points_high = ['0011900118', 'Shake Milton', 4, 4, 4, 2, 0, 'Thunder', 'A', '2020', 'https://www.basketball-reference.com/boxscores/202007260OKC.html', ['0011900118', 'Furkan Korkmaz', 4, 2, 1, 1, 0, 'Thunder', 'A', '2020', 'https://www.basketball-reference.com/boxscores/202007260OKC.html'], ['0011900118', 'Norvel Pelle', 4, 6, 3, 0, 0, 'Thunder', 'A', '2020', 'https://www.basketball-reference.com/boxscores/202007260OKC.html'], ['0011900118', 'Marial Shayok', 4, 1, 0, 1, 1, 'Thunder', 'A', '2020', 'https://www.basketball-reference.com/boxscores/202007260OKC.html']];
+var date = 'July 26th';
 document.getElementById("date").innerHTML =  date;
 document.getElementById("PointsLink").href = points_high[10];
 document.getElementById("PointsPlayer").innerHTML = points_high[1]+ ": ";
